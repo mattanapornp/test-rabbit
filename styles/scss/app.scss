@@ -1,0 +1,28 @@
+// Mixins
+@import 'mixins/rem';
+
+@import '~@alphafounders/rf-questionflow-component/src/scss/app.scss';
+@import '~@alphafounders/rf-questionflow-component/src/components/questions/RichMultiChoice/RichMultiChoice.module.scss';
+@import '~@alphafounders/rf-questionflow-component/src/components/common/Modal.module.scss';
+@import '~@alphafounders/rf-questionflow-component/src/components/questions/Checklist/Checklist.module.scss';
+
+// Local components
+@import 'progress-bar';
+@import 'layout';
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: inline-block !important;
+}
+
+.h3 {
+  font-size: rem(26);
+  font-weight: 700;
+  line-height: rem(39);
+}

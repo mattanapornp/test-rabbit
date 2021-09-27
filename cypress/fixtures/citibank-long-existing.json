@@ -1,0 +1,112 @@
+{
+  "cases": {
+    "case-1-ENG": {
+      "purpose": "To invest in business",
+      "howlong": "More than a year",
+      "income": "THB 30,000 - 39,999",
+      "occupation": "Full-time employee",
+      "experience": "More than 4 months"
+    },
+    "case-2-ENG": {
+      "purpose": "To pay other expenses",
+      "howlong": "More than a year",
+      "income": "THB 50,000 - 59,999",
+      "occupation": "Full-time employee",
+      "experience": "More than 1 year"
+      
+    },
+    "case-3-ENG": {
+      "purpose": "To pay medical bill",
+      "howlong": "More than a year",
+      "income": "THB 60,000 - 100,000",
+      "occupation": "Government officer/Public servant",
+      "experience": "More than 4 months"
+    },
+    "case-4-ENG": {
+      "purpose": "To pay other expenses",
+      "howlong": "More than a year",
+      "income": "More than THB 200,000",
+      "occupation": "Business owner - company registered",
+      "registered": "More than 2 years"
+    },
+    "case-1-THAI": {
+      "purpose": "จ่ายค่าเล่าเรียน",
+      "howlong": "มากกว่า 1 ปี",
+      "income": "40,000 - 49,999 บาท",
+      "occupation": "พนักงานเอกชน (ประจำ)",
+      "experience": "มากกว่า 1 ปี"
+    },
+    "case-2-THAI": {
+      "purpose": "จ่ายค่ารักษาพยาบาล",
+      "howlong": "มากกว่า 1 ปี",
+      "income": "100,001 - 199,999 บาท",
+      "occupation": "เจ้าของกิจการ - มีทะเบียนการค้า",
+      "registered": "จดทะเบียนบริษัทตั้งแต่ 2 ปีขึ้นไป"
+    },
+    "case-3-THAI": {
+      "purpose": "ลงทุนในธุรกิจ",
+      "howlong": "มากกว่า 1 ปี",
+      "income": "มากกว่า 200,000 บาท",
+      "occupation": "พนักงานเอกชน (ประจำ)",
+      "experience": "มากกว่า 4 เดือน"
+    },
+    "case-1-Unmatched-ENG": {
+      "purpose": "To consolidate credit card debt",
+      "howlong": "More than a year",
+      "income": "THB 30,000 - 39,999",
+      "occupation": "Full-time employee",
+      "experience": "More than 4 months"
+    },
+    "case-2-Unmatched-ENG": {
+      "purpose": "To pay tuition fee",
+      "howlong": "More than a year",
+      "income": "THB 40,000 - 49,999",
+      "occupation": "Government officer/Public servant",
+      "experience": "Less than 4 months"
+    },
+    "case-3-Unmatched-ENG": {
+      "purpose": "To pay medical bill",
+      "howlong": "Less than a year",
+      "income": "THB 60,000 - 100,000",
+      "occupation": "Government officer/Public servant",
+      "experience": "More than 4 months"
+    },
+    "case-4-Unmatched-ENG": {
+      "purpose": "To pay other expenses",
+      "howlong": "More than a year",
+      "income": "THB 100,001 - 199,999",
+      "occupation": "Business owner - company registered",
+      "registered": "Less than a year"
+    }, 
+    "case-1-Unmatched-THAI": {
+      "purpose": "จ่ายค่าเล่าเรียน",
+      "howlong": "มากกว่า 1 ปี",
+      "income": "20,000 - 29,999 บาท",
+      "hmloan": "ไม่มีเลย",
+      "occupation": "พนักงานเอกชน (ประจำ)",
+      "experience": "มากกว่า 4 เดือน"
+    }, 
+    "case-2-Unmatched-THAI": {
+      "purpose": "ลงทุนในธุรกิจ",
+      "howlong": "มากกว่า 1 ปี",
+      "income": "มากกว่า 200,000 บาท",
+      "occupation": "เจ้าของกิจการ - มีทะเบียนการค้า",
+      "registered": "จดทะเบียนบริษัทตั้งแต่ 1 ปีขึ้นไป (แต่ไม่เกิน 2 ปี)"
+    },
+    "case-3-Unmatched-THAI": {
+      "purpose": "จ่ายค่ารักษาพยาบาล",
+      "howlong": "น้อยกว่า 1 ปี",
+      "income": "50,000 - 59,999 บาท",
+      "occupation": "ราชการ/รัฐวิสาหกิจ",
+      "experience": "มากกว่า 1 ปี"
+    },
+    "case-4-Unmatched-THAI": {
+      "purpose": "จ่ายค่าใช้จ่ายอื่นๆ",
+      "howlong": "มากกว่า 1 ปี",
+      "income": "30,000 - 39,999 บาท",
+      "occupation": "เจ้าของกิจการ - ไม่มีทะเบียนการค้า",
+      "experience": "มากกว่า 4 เดือน"
+    }
+  }
+  
+}
