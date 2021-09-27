@@ -1,0 +1,26 @@
+.ol-lower-roman {
+  counter-reset: list;
+
+  li {
+    list-style: none;
+    position: relative;
+
+    &:before {
+      counter-increment: list;
+      content: '(' counter(list, lower-roman) ')  ';
+      position: absolute;
+      left: -1.8rem;
+    }
+  }
+}
+
+.loan-price-current-value {
+  color: #005098;
+  margin-right: 0.4rem;
+  font-weight: 700;
+}
+
+// https://alphafounders.atlassian.net/browse/MEDIA-430
+#customer_banks [class*='HelpTool_helpTool'] {
+  position: static;
+}

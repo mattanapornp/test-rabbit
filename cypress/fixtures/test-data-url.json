@@ -1,0 +1,1387 @@
+{
+  "testData": [
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/",
+    "RC_baseUrl": "https://rabbitcare.com"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en",
+    "RC_baseUrl": "https://rabbitcare.com/en"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/about-us",
+    "RC_baseUrl": "https://corporate.rabbitcare.com/en/about-us"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/about-us",
+    "RC_baseUrl": "https://corporate.rabbitcare.com/en/about-us"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/careers",
+    "RC_baseUrl": "https://corporate.rabbitcare.com/career/career-opportunities"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/careers",
+    "RC_baseUrl": "https://corporate.rabbitcare.com/career/career-opportunities"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/careers/telesales-recruitment",
+    "RC_baseUrl": "https://corporate.rabbitcare.com/career/career-opportunities"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/careers/telesales-recruitment",
+    "RC_baseUrl": "https://corporate.rabbitcare.com/career/career-opportunities"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/contact-us",
+    "RC_baseUrl": "https://corporate.rabbitcare.com/en/contact-us"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/contact-us",
+    "RC_baseUrl": "https://corporate.rabbitcare.com/en/contact-us"
+  },
+  {
+    "RF_baseUrl": "https://corporate.rabbitcare.com/en/who-we-are/partners",
+    "RC_baseUrl": "https://corporate.rabbitcare.com/en/who-we-are/partners"
+  },
+  {
+    "RF_baseUrl": "https://corporate.rabbitcare.com/en/who-we-are/partners",
+    "RC_baseUrl": "https://corporate.rabbitcare.com/en/who-we-are/partners"
+  },
+  {
+    "RF_baseUrl": "https://corporate.rabbitcare.com/en/who-we-are/investors",
+    "RC_baseUrl": "https://corporate.rabbitcare.com/en/who-we-are/investors"
+  },
+  {
+    "RF_baseUrl": "https://corporate.rabbitcare.com/en/who-we-are/investors",
+    "RC_baseUrl": "https://corporate.rabbitcare.com/en/who-we-are/investors"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/privacy-policy",
+    "RC_baseUrl": "https://rabbitcare.com/privacy-policy"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/privacy-policy",
+    "RC_baseUrl": "https://rabbitcare.com/en/privacy-policy"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/terms-and-conditions",
+    "RC_baseUrl": "https://rabbitcare.com/terms-and-conditions"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/terms-and-conditions",
+    "RC_baseUrl": "https://rabbitcare.com/en/terms-and-conditions"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/cookie-policy",
+    "RC_baseUrl": "https://rabbitcare.com/cookie-policy"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/en/cookie-policy",
+    "RC_baseUrl": "https://rabbitcare.com/en/cookie-policy"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/cctv-policy",
+    "RC_baseUrl": "https://rabbitcare.com/cctv-policy"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/en/cctv-policy",
+    "RC_baseUrl": "https://rabbitcare.com/en/cctv-policy"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/business-partner-privacy-policy",
+    "RC_baseUrl": "https://rabbitcare.com/business-partner-privacy-policy"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/en/business-partner-privacy-policy",
+    "RC_baseUrl": "https://rabbitcare.com/en/business-partner-privacy-policy"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/companies-under-bts-group"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/en/companies-under-bts-group"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/en/companies-under-rabbit"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/companies-under-rabbit"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/help-center"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/en/help-center"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/business",
+    "RC_baseUrl": "https://rabbitcare.com/corporate-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/business",
+    "RC_baseUrl": "https://rabbitcare.com/en/corporate-insurance"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/corporate-insurance/business-types"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/business/cafe",
+    "RC_baseUrl": "https://rabbitcare.com/corporate-insurance/cafe"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/business/hotel",
+    "RC_baseUrl": "https://rabbitcare.com/corporate-insurance/hotel"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/business/office",
+    "RC_baseUrl": "https://rabbitcare.com/corporate-insurance/office"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/business/shop",
+    "RC_baseUrl": "https://rabbitcare.com/corporate-insurance/office"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/motor-insurances"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/brands",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/brands"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-ford",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/brands/ford"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/honda",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/brands/honda"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-hyundai",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/brands/hyundai"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-mazda",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/brands/mazda"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-mercedes-benz",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/brands/mercedes-benz"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-nissan",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/brands/nissan"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-suzuki",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/brands/suzuki"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/toyota",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/brands/toyota"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/models"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-ford-ranger",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/models/ford-ranger"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-Isuzu-Dmax",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/models/isuzu-dmax"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-honda-accord",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/models/honda-accord"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-honda-hrv",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/models/honda-hrv"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-honda-city",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/models/honda-city"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-civic",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/models/honda-civic"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-honda-jazz",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/models/honda-jazz"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-mazda2",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/models/mazda-2"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-nissan-almera",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/models/nissan-almera"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-nissan-march",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/models/nissan-march"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-suzuki-swift",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/models/suzuki-swift"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-toyota-corolla",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/models/toyota-corolla"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-toyota-vios",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/models/toyota-vios"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/car-toyota-camry",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/models/toyota-camry"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/type"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/type1",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/type1"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/type2",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/type2"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/type2plus",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/type2-plus"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/type3",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/type3"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/type3plus",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/type3-plus"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/type"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/type1",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/type1"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/type2",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/type2"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/type2plus",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/type2-plus"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/type3",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/type3"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/type3plus",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/type3-plus"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/segments"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/pickup",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/segments/pick-up"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/van",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/segments/van"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/automobile",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/segments/sedan"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/suppliers",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/aig",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/aig"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/allianzcp",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/allianzcp"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/axa",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/axa"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/asia",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/asia"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/asia/type1",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/asia-type1"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/asia/type2",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/asia-type2"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/asia/type3",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/asia-type3"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/bangkok",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/bangkok"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/bangkok/type1",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/bangkok-type1"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/bangkok/type2",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/bangkok-type2"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/bangkok/type3",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/bangkok-type3"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/deves",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/deves"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/deves/type1",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/deves-type1"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/deves/type2",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/deves-type2"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/deves/type3",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/deves-type3"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/dhipaya",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/dhipaya"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/krungthaipanich",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/krungthaipanich"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/krungthaipanich/type2",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/krungthaipanich-type2"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/lmg",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/lmg"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/mittare",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/mittare"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/msig",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/msig"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/muangthai",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/muangthai"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/muangthai/type1",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/muangthai-type1"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/muangthai/type2",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/muangthai-type2"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/muangthai/type3",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/muangthai-type3"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/navakij",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/navakij"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/safety",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/safety"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/safety/type1",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/safety-type1"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/safety/type2",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/safety-type2"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/safety/type3",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/safety-type3"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/southeast",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/southeast"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/southeast/type1",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/southeast-type1"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/southeast/type3",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/southeast-type3"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/synmunkong",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/synmunkong"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/thaisri",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/thaisri"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/thaivivat",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/thaivivat"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/assets",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/assets"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/thanachart",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/thanachart"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/tokiomarin",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/tokiomarine"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/viriyah",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/viriyah"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/viriyah/type1",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/viriyah-type1"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/viriyah/type2",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/viriyah-type2"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/viriyah/type3plus",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/suppliers/viriyah-type3-plus"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/suppliers",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/suppliers"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/allianzcp",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/suppliers/allianzcp"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/bangkok",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/suppliers/bangkok"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/deves",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/suppliers/deves"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/dhipaya",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/suppliers/dhipaya"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/lmg",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/suppliers/lmg"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/mittare",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/suppliers/mittare"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/muangthai",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/suppliers/muangthai"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/navakij",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/suppliers/navakij"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/safety",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/suppliers/safety"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/southeast",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/suppliers/southeast"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/synmunkong",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/suppliers/synmunkong"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/thaisri",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/suppliers/thaisri"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/viriyah",
+    "RC_baseUrl": "https://rabbitcare.com/en/car-insurance/suppliers/viriyah"
+  },
+  {
+    "RF_baseUrl": "No Existed (User ต่างๆ คุณเป็นคนขับประเภทไหน)",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/users"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/young-driver",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/users/young-driver"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/student-car",
+    "RC_baseUrl": "https://rabbitcare.com/car-insurance/users/student-car"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/motorbike-insurance",
+    "RC_baseUrl": "https://rabbitcare.com/en/motorbike-insurance"
+  },
+  {
+    "RF_baseUrl": "No Existed (All Brand Mixs)",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/brands"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/bmw",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/brands/bmw"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/ducati",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/brands/ducati"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/harley-davidson",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/brands/harley-davidson"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/honda",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/brands/honda"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/kawasaki",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/brands/kawasaki"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/suzuki",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/brands/suzuki"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/vespa",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/brands/vespa"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/yamaha",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/brands/yamaha"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/motorbike-insurance/harley-davidson",
+    "RC_baseUrl": "https://rabbitcare.com/en/motorbike-insurance/brands/harley-davidson"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/motorbike-insurance/honda",
+    "RC_baseUrl": "https://rabbitcare.com/en/motorbike-insurance/brands/honda"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/motorbike-insurance/vespa",
+    "RC_baseUrl": "https://rabbitcare.com/en/motorbike-insurance/brands/vespa"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/type"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/type1",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/type1"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/type1",
+    "RC_baseUrl": "https://rabbitcare.com/en/motorbike-insurance/type1"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/type2",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/type2"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/type3",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/type3"
+  },
+  {
+    "RF_baseUrl": "No Existed (Main ให้มี ภาพ & text ของแต่ละ Segment)",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/segments"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/125cc",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/segments/125cc"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/big-bike",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/segments/big-bike"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/big-bike",
+    "RC_baseUrl": "https://rabbitcare.com/en/motorbike-insurance/segments/big-bike"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/motorbike-insurance/125cc",
+    "RC_baseUrl": "https://rabbitcare.com/en/motorbike-insurance/segments/125cc"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/suppliers"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/asia",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/suppliers/asia"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/thaisri",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/suppliers/thaisri"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/motorbike-insurance/thaivivat",
+    "RC_baseUrl": "https://rabbitcare.com/motorbike-insurance/suppliers/thaivivat"
+  },
+  {
+    "RF_baseUrl": "No Existed (Main)",
+    "RC_baseUrl": "https://rabbitcare.com/por-ror-bor"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/en/por-ror-bor"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/por-ror-bor",
+    "RC_baseUrl": "https://rabbitcare.com/por-ror-bor/car"
+  },
+  {
+    "RF_baseUrl": "No Existed (motorbike)",
+    "RC_baseUrl": "https://rabbitcare.com/por-ror-bor/motorbike"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/por-ror-bor",
+    "RC_baseUrl": "https://rabbitcare.com/en/por-ror-bor/car"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/en/por-ror-bor/motorbike"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/car-insurance/help-center",
+    "RC_baseUrl": "https://rabbitcare.com/motor-insurance-help-center"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/car-insurance/help-center",
+    "RC_baseUrl": "https://rabbitcare.com/en/motor-insurance-help-center"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/cards"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/cash-card",
+    "RC_baseUrl": "https://rabbitcare.com/cash-card"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/cash-card/citi"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/cash-card/citi-ready-credit",
+    "RC_baseUrl": "https://rabbitcare.com/cash-card/citi/citi-ready-credit"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/cash-card/citi-ready-credit-02",
+    "RC_baseUrl": "https://rabbitcare.com/cash-card/citi/citi-ready-credit-02"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/cash-card/ktc"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/cash-card/ktc-proud",
+    "RC_baseUrl": "https://rabbitcare.com/cash-card/ktc/ktc-proud"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/cash-card/tmb"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/cash-card/tmb-ready-cash-card",
+    "RC_baseUrl": "https://rabbitcare.com/cash-card/ttb/ttb-ready"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/cash-card/uob"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/cash-card/uob-icash-plus",
+    "RC_baseUrl": "https://rabbitcare.com/cash-card/uob/uob-cash-plus"
+  },
+  {
+    "RF_baseUrl": " https://rabbitfinance.com/cash-card/kkp-cash-card",
+    "RC_baseUrl": "https://rabbitcare.com/cash-card/kkp-cash-card"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/credit-card",
+    "RC_baseUrl": "https://rabbitcare.com/credit-card"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/credit-card",
+    "RC_baseUrl": "https://rabbitcare.com/en/credit-card"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/credit-card-partners",
+    "RC_baseUrl": "https://rabbitcare.com/credit-card/partners"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/credit-card-partners/citi-credit-card",
+    "RC_baseUrl": "https://rabbitcare.com/credit-card/citibank"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/credit-card-partners/citi-credit-card/flash-promotion",
+    "RC_baseUrl": "https://rabbitcare.com/credit-card/citibank-flash-promotion"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/credit-card-partners/kbank",
+    "RC_baseUrl": "https://rabbitcare.com/credit-card/kbank"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/credit-card-partners/shopee-credit-card",
+    "RC_baseUrl": "https://rabbitcare.com/credit-card/kbank-shopee"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/credit-card-partners/krungsri-credit-card",
+    "RC_baseUrl": "https://rabbitcare.com/credit-card/krungsri"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/credit-card-partners/ktc-credit-card",
+    "RC_baseUrl": "https://rabbitcare.com/credit-card/ktc"
+  },
+  {
+    "RF_baseUrl": " https://rabbitfinance.com/credit-card-partners/ktc-bangchak",
+    "RC_baseUrl": "https://rabbitcare.com/credit-card/ktc-bangchak"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/credit-card-partners/TMB-Credit-Card",
+    "RC_baseUrl": "https://rabbitcare.com/credit-card/ttb"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/credit-card-partners/uob",
+    "RC_baseUrl": "https://rabbitcare.com/credit-card/uob"
+  },
+  {
+    "RF_baseUrl": " https://rabbitfinance.com/credit-card-partners/credit-insurance",
+    "RC_baseUrl": "https://rabbitcare.com/credit-card/credit-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/credit-card-partners/ptt-blue-credit-card",
+    "RC_baseUrl": "https://rabbitcare.com/credit-card/kbank-ptt-blue"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan",
+    "RC_baseUrl": "https://rabbitcare.com/loan"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/loan",
+    "RC_baseUrl": "https://rabbitcare.com/en/loan"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/auto-loan",
+    "RC_baseUrl": "https://rabbitcare.com/leasing"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/auto-loan/kiatnakin-phatra-car-quick-cash",
+    "RC_baseUrl": "https://rabbitcare.com/leasing/kiatnakin-phatra-car-quick-cash"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/auto-loan/kleasing",
+    "RC_baseUrl": "https://rabbitcare.com/leasing/kleasing"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/auto-loan/scb-auto-loan",
+    "RC_baseUrl": "https://rabbitcare.com/leasing/scb-my-car-my-cash"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/leasing/asn-leasing",
+    "RC_baseUrl": "https://rabbitcare.com/leasing/asn-finance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/leasing/krungsri-auto-car4cash",
+    "RC_baseUrl": "https://rabbitcare.com/leasing/krungsri-car4cash"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/motorbike-loan/summit-capital",
+    "RC_baseUrl": "https://rabbitcare.com/leasing/summit-capital-motorcycle"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/home-loan",
+    "RC_baseUrl": "https://rabbitcare.com/home-loan"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/loan/home-loan",
+    "RC_baseUrl": "https://rabbitcare.com/en/home-loan"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/home-loan/uob-cash-to-home",
+    "RC_baseUrl": "https://rabbitcare.com/home-loan/uob-cash-to-home"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/home-loan/uob-home",
+    "RC_baseUrl": "https://rabbitcare.com/home-loan/uob-home"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/home-loan-refinancing/uob-home-refinance",
+    "RC_baseUrl": "https://rabbitcare.com/home-loan/uob-refinance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/personalloan",
+    "RC_baseUrl": "https://rabbitcare.com/personal-loan"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/personalloan/citi-personal-loan",
+    "RC_baseUrl": "https://rabbitcare.com/personal-loan/citi"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/personalloan/citi-family",
+    "RC_baseUrl": "https://rabbitcare.com/personal-loan/citi-family"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/citi-lop-quick-cash",
+    "RC_baseUrl": "https://rabbitcare.com/personal-loan/citi-lop-quick-cash"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/personalloan/citi-debt-consolidation",
+    "RC_baseUrl": "https://rabbitcare.com/personal-loan/citi-debt-consolidation"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/personalloan/kiatnakin-phatra-personal-loan",
+    "RC_baseUrl": "https://rabbitcare.com/personal-loan/kiatnakin-phatra"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/personalloan/krungsri-personalloan",
+    "RC_baseUrl": "https://rabbitcare.com/personal-loan/krungsri"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/personalloan/scb-personal-loan",
+    "RC_baseUrl": "https://rabbitcare.com/personal-loan/scb-speedy-loan"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/personalloan/uob-personal-loan",
+    "RC_baseUrl": "https://rabbitcare.com/personal-loan/uob"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/personalloan/lhbank-happy-cash",
+    "RC_baseUrl": "https://rabbitcare.com/personal-loan/lh-bank"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/personalloan/tmb-cash2go",
+    "RC_baseUrl": "https://rabbitcare.com/personal-loan/ttb-cash2go"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/loan/business-loan",
+    "RC_baseUrl": "https://rabbitcare.com/business-loan"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/health-insurance",
+    "RC_baseUrl": "https://rabbitcare.com/en/health-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/child",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/child"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/bki/happy-healthy",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/child/bki-happy-healthy"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/suppliers"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/thailife",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/suppliers/thailife"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/IPD-OPD",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/IPD-OPD/AZAY-My-MediCare-Plus",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/azay-my-medicare-plus"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/IPD-OPD/generali-health-lump-sum",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/generali-health-lump-sum"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/IPD-OPD/generali-health-lump-sum-senior",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/generali-health-lump-sum-senior"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/IPD-OPD/manulife-finsurance",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/kwilife-finsurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/IPD-OPD/viriyah-aoonjairak",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/viriyah-aoonjairak"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/IPD-OPD/viriyah-piemjairak",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/viriyah-piemjairak"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/IPD-OPD/viriyah-sookjairak",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/viriyah-sookjairak"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/IPD-OPD/mtl-elitehealth",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/mtl-elitehealth"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/IPD-OPD/mtl-dhealth",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/mtl-dhealth"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/bki/care-plus",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/bki-care-plus"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/aetna",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/aetna-personal-care"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/compensate-income"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/thailife/เติมเงินยามป่วย",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/compensate-income/thailife-refill"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/expat-insurance-all",
+    "RC_baseUrl": "https://rabbitcare.com/en/expat-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/IPD-OPD/cigna-hip-simple",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/cigna-hip-simple"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/IPD-OPD/aetna-beyond-personal-care",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/aetna-beyond-personal-care"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/IPD-OPD/aetna-platinum",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/aetna-platinum"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/TM-HLS",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/tokio-marine-health-lump-sum"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/IPD-OPD/generali-health-geb",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/generali-group-employee-benefit"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-comparison-main",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance-comparison"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/IPD-OPD/bki-health-lump-sum",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/ipd-opd/bki-health-lump-sum"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/shop/health-insurance/health-topup",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/online-purchase-insurance"
+  },
+  {
+    "RF_baseUrl": "No ",
+    "RC_baseUrl": "https://rabbitcare.com/health-insurance/brokerage-campaign"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/personal-accident-insurance",
+    "RC_baseUrl": "https://rabbitcare.com/personal-accident-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/personal-accident-insurance",
+    "RC_baseUrl": "https://rabbitcare.com/en/personal-accident-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/personal-accident-insurance/bki-mestyle",
+    "RC_baseUrl": "https://rabbitcare.com/personal-accident-insurance/bki-mestyle"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/personal-accident-insurance/bki-mestyle-familyfirst",
+    "RC_baseUrl": "https://rabbitcare.com/personal-accident-insurance/bki-mestyle-family-first"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/personal-accident-insurance/bki-mestyle-fitstyle",
+    "RC_baseUrl": "https://rabbitcare.com/personal-accident-insurance/bki-mestyle-fit-style"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/personal-accident-insurance/bkipaforall",
+    "RC_baseUrl": "https://rabbitcare.com/personal-accident-insurance/bki-pa-for-all"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/personal-accident-insurance/thailife",
+    "RC_baseUrl": "https://rabbitcare.com/personal-accident-insurance/thailife"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/personal-accident-insurance/thailife/beyond-smart-protection",
+    "RC_baseUrl": "https://rabbitcare.com/personal-accident-insurance/thailife-beyond-smart-protection"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/personal-accident-insurance/thailife/broken-bone",
+    "RC_baseUrl": "https://rabbitcare.com/personal-accident-insurance/thailife-broken-bone"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/personal-accident-insurance/thailife/broken-bone-refund-advance",
+    "RC_baseUrl": "https://rabbitcare.com/personal-accident-insurance/thailife-broken-bone-refund-advance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/personal-accident-insurance/thailife/easy-family",
+    "RC_baseUrl": "https://rabbitcare.com/personal-accident-insurance/thailife-easy-family"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/personal-accident-insurance/thailife/easy-refund",
+    "RC_baseUrl": "https://rabbitcare.com/personal-accident-insurance/thailife-easy-refund"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/personal-accident-insurance/viriyah-pa",
+    "RC_baseUrl": "https://rabbitcare.com/personal-accident-insurance/viriyah-pa"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/personal-accident-insurance/thailife/pa-love-family",
+    "RC_baseUrl": "https://rabbitcare.com/personal-accident-insurance/thailife-pa-love-family"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/shop/pa-insurance",
+    "RC_baseUrl": "https://rabbitcare.com/personal-accident-insurance/online-purchase-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/life-insurance",
+    "RC_baseUrl": "https://rabbitcare.com/en/life-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-protection",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/protection"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-protection/FWD-Easy-E-LIFE",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/protection/fwd-easy-e-life"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/personal-accident-insurance/thailife/creditcare",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/protection/thailife-credit-care"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-retirement",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/retirement"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-retirement/fwd-pension-85-55",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/retirement/fwd-pension-85-55"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-retirement/thailife-เศรษฐีรีไทร์",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/retirement/thailife-billionaire"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-elderly",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/elderly"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-elderly/generali-senior55-senior",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/elderly/generali-senior55-senior"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-elderly/generali-senior55-kid",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/elderly/generali-senior55-kid"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-elderly/thailife-บุพการีมีเงินใช้-parents",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/elderly/thailife-parents-happy-parents"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-elderly/thailife-บุพการีมีเงินใช้-kid",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/elderly/thailife-parents-happy-kid"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-elderly/thailife-มรดกเพิ่มพูน",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/elderly/thailife-moradok-phoemphun"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-elderly/thailife-easyseniorplus",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/elderly/thailife-easy-senior-plus"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/azay",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/elderly/azay-senior-sabai-krapao"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/azay/senior-sukjai",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/elderly/azay-senior-sukjai"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-saving",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/saving"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-saving/citi-insurance-20paylife",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/saving/aia-insurance-20-paylife-by-citi"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-saving/thailife-ทรัพย์ทวี-15-15",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/saving/thailife-sap-thawi-15-15"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-saving/thailife-ทรัพย์บำนาญ-55",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/saving/thailife-sap-bamnan-55"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-saving/thailife-ทรัพย์บำนาญ-60",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/saving/thailife-sap-bamnan-60"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-saving/thailife-ทรัพย์ปันผล-85-10",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/saving/thailife-sap-panphon-85-10"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-saving/thailife-ทุนทวีพลัส-20-20",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/saving/thailife-sap-thawi-plus-20-20"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-saving/thailife-แฮปปี้มีเงินใช้",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/saving/thailife-happy-saving"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-saving/thailife-smilekids",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/saving/thailife-smilekids"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/suppliers"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/thailife",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/suppliers/thailife"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/azay",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/suppliers/azay"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-saving/manulife-aomkoomkoom-max",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/saving/kwilife-aomkoomkoom-max"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/life-insurance/life-saving/fwd-for-saving-20-10",
+    "RC_baseUrl": "https://rabbitcare.com/life-insurance/saving/fwd-for-saving-20-10"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/critical-illness-cancer",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/en/health-insurance/critical-illness-cancer",
+    "RC_baseUrl": "https://rabbitcare.com/en/critical-illness-cancer"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/critical-illness-cancer/aia-cancer",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer/aia-cancer"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/critical-illness-cancer/citi-insurance-ci-supercare",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer/aia-insurance-ci-supercare-by-citi"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/critical-illness-cancer/generali-cancer-super-protection",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer/generali-cancer-super-protection"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/critical-illness-cancer/thailife-มะเร็งรีฟันด์",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer/thailife-cancer-refund"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/thailife/โรคร้ายแรงรีฟันด์",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer/thailife-critical-illness-refund"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/critical-illness-cancer/bki-cancer",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer/bki-cancer"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/bki/critical-guard",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer/bki-critical-guard"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/bki/cancer-plus",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer/bki-cancer-plus"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/bki/cancer-saver/breast",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer/bki-breast-cancer-saver"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/bki/cancer-saver/lung",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer/bki-lung-cancer-saver"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/bki/cancer-saver/men",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer/bki-men-cancer-saver"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/bki/cancer-saver/women",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer/bki-women-cancer-saver"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/critical-illness-cancer/viriyah-cancerpro",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer/viriyah-cancerpro"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/critical-illness-cancer/cigna-ca1price",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer/cigna-ca1price"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/critical-illness-cancer/fwd-cancer-10-10",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer/fwd-cancer-10-10"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/other-insurances"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/en/other-insurances"
+  },
+  {
+    "RF_baseUrl": "https://rabbit.finance/covid-center/",
+    "RC_baseUrl": "https://rabbitcare.com/other-insurances/covid-insurance"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/other-insurances/personal-covid-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbit.finance/b2b-covid-center",
+    "RC_baseUrl": "https://rabbitcare.com/other-insurances/corporate-covid-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbit.finance/expats-covid-center",
+    "RC_baseUrl": "https://rabbitcare.com/en/other-insurances/expat-covid-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/shop/mosquito-insurance",
+    "RC_baseUrl": "https://rabbitcare.com/other-insurances/mosquito-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/shop/diabetes-insurance/dual-care",
+    "RC_baseUrl": "https://rabbitcare.com/other-insurances/diabetes-insurance"
+  },
+  {
+    "RF_baseUrl": "No Existed",
+    "RC_baseUrl": "https://rabbitcare.com/other-insurances/cyber-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbit.finance/insurance/tip-cyber-insurance/",
+    "RC_baseUrl": "https://rabbitcare.com/other-insurances/tip-cyber-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbit.finance/insurance/bki-cyber-insurance/",
+    "RC_baseUrl": "https://rabbitcare.com/other-insurances/bki-cyber-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbit.finance/insurance/assets-house-insurance",
+    "RC_baseUrl": "https://rabbitcare.com/other-insurances/assets-house-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/other-insurances/pet-insurance",
+    "RC_baseUrl": "https://rabbitcare.com/other-insurances/pet-insurance"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/bank-partner",
+    "RC_baseUrl": "https://rabbitcare.com/bank-partner"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/bank-partner/kbank",
+    "RC_baseUrl": "https://rabbitcare.com/bank-partner/kbank"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/bank-partner/scb",
+    "RC_baseUrl": "https://rabbitcare.com/bank-partner/scb"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/bank-partner/citibank",
+    "RC_baseUrl": "https://rabbitcare.com/bank-partner/citibank"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/bank-partner/kkp",
+    "RC_baseUrl": "https://rabbitcare.com/bank-partner/kkp"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/bank-partner/uob",
+    "RC_baseUrl": "https://rabbitcare.com/bank-partner/uob"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/bank-partner/lh",
+    "RC_baseUrl": "https://rabbitcare.com/bank-partner/lh"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/bank-partner/krungsri",
+    "RC_baseUrl": "https://rabbitcare.com/bank-partner/krungsri"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/bank-partner/asn",
+    "RC_baseUrl": "https://rabbitcare.com/bank-partner/asn"
+  },
+  {
+    "RF_baseUrl": "https://rabbitcare.com/bank-partner/ttb",
+    "RC_baseUrl": "https://rabbitcare.com/bank-partner/ttb"
+  },
+  {
+    "RF_baseUrl": "https://rabbitfinance.com/health-insurance/critical-illness-cancer/bla-happy-healthy",
+    "RC_baseUrl": "https://rabbitcare.com/critical-illness-cancer/bla-happy-healthy"
+  }
+  ]}

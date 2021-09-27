@@ -1,0 +1,7 @@
+// Old test files content can maybe be used implementing Gherkin style steps
+
+describe('Leasing Question Journey', () => {
+  it('visit the leasinge question page', () => {
+    // TODO:It should render Leasing questions page properly
+  });
+});

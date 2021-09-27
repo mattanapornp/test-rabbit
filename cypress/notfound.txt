@@ -1,0 +1,23 @@
+// Old test files content can maybe be used implementing Gherkin style steps
+
+describe('Notfound page Journey', () => {
+  beforeEach(() => {
+    cy.visit('/en/unknown-url', {
+      "failOnStatusCode": false
+    });
+  });
+
+  it('Displays all the components properly', () => {
+    cy.get('img').should('be.visible');
+
+    cy.get('h3').should(($h) => {
+      expect($h).to.contain('Sorry');
+    });
+
+    cy.get('p').should(($p) => {
+      expect($p).to.contain('This page is not available');
+    });
+
+    cy.get('button').should('have.css', 'background-color', 'rgb(0, 80, 152)');
+  });
+});

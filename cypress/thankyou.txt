@@ -1,0 +1,56 @@
+// Old test files content can maybe be used implementing Gherkin style steps 
+
+describe('Thankyou page Journey', () => {
+  beforeEach(() => {
+    cy.visit('/en/thank_you');
+  });
+
+  it('Displays thank you image', () => {
+    cy.get('img').should('be.visible');
+  });
+
+  it('Displays subtitle and title', () => {
+    cy.get('h3').should(($h) => {
+      expect($h).to.contain('Thank you');
+    });
+
+    cy.get('p').should(($p) => {
+      expect($p).to.contain('We have submitted');
+    });
+  });
+
+  it('All text color and bg color should show correctly', () => {
+    cy.get('h3').should('have.css', 'color', 'rgb(247, 143, 30)');
+
+    cy.get('button').should('have.css', 'background-color', 'rgb(0, 80, 152)');
+  });
+
+  it('The label of button for EN always show upper case', () => {
+    cy.get('button').should(($btn) => {
+      expect($btn).to.contain('BROWSE OTHER PRODUCTS');
+    });
+  });
+
+  it('The user should be able to automatically redirect to home page with correct localized', () => {
+    cy.get('button').click();
+    cy.url().should('include', 'https://rabbitcare.com/en');
+  });
+});
+
+
+# @thai
+# Scenario: TC_001_QUESTION_PAGE - E2E case
+#   When I fill all the correct values in 'thai'
+#   When I click on the button 'Proceed'
+#   Then expect the response of 'api/campaign/personal-loan/responset' post have following values:
+#     | customer_banks | customer_banks_loan | purpose | howlong | income | occupation | experience | registered | province | name | phone      | idcard | citiloan | hmloan | surname | email      |
+#     | LHBANK         | SCB                 | A1      | A1      | A9     | A2         | A3         |            | 100000   | test | 0999999999 |        |          |        | test    | test@email |
+
+# @english
+# Scenario: TC_001_QUESTION_PAGE - E2E case
+#   When I fill all the correct values in 'english'
+#   And I click the button 'PROCEED'
+#   Then expect the url to include 'en/rejection'
+#   And expect the response of 'api/campaign/personal-loan/responset' post have following values
+#     | purpose | howlong | income | occupation | experience | registered | province | name | phone      | idcard | citiloan | hmloan | name    | surname | email                 |
+#     | A1      | A1      | A1     | A1         | A1         |            | 100000   | test | 0999999999 |        | N        | A1     | cypress | test    | cypress@testemail.com |
