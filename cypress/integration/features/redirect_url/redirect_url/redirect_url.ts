@@ -6,9 +6,7 @@ import { getFieldType, fillField } from '../../../../utils';
 import { data } from 'cypress/types/jquery';
 
 
-// A step to fill the form until a certain point
-// For example, you want to fill the form up to 'income', you can use the step as follows:
-// "Given the form is filled until 'income' in 'thai'"
+// Given the url RF
 Given(
   'input Rabbit Finnance website {string}',
     (rf_path: string) => {
@@ -16,14 +14,14 @@ Given(
     }
 );
 
-// A step to fill the form completely with default values
+// A step to check have change url
 When('redirect from Rabbit Finnance website {string}', 
   (rf_path: string) => {
   cy.url().should('eq', `${RF_baseUrl}`);
   }
 );
 
-// A step to validate the placeholder of an input field
+// A step to validate url is RF
 Then(
   'expect redirect to Rabbit Care website correctly point {string}', 
     (rc_path: string) => {
