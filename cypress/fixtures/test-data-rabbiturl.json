@@ -1,0 +1,52 @@
+{
+    "category" : {
+        "aboutus": ["about-us", "en/about-us", "careers", "en/careers", "careers/telesales-recruitment","en/careers/telesales-recruitment",
+                    "career/career-opportunities", "contact-us", "en/contact-us",
+                    "privacy-policy", "en/privacy-policy", "terms-and-conditions", "en/terms-and-conditions"], 
+        "corporateinsurance": [" ", "/cafe", "/hotel", "/office","/shop"],
+        "carinsurancebrand": ["car-ford", "honda", "car-hyundai","car-mazda"],
+        "carinsurancemodel": ["ford-ranger", "Isuzu-Dmax", "honda-accord","honda-hrv"],
+        "carinsurancesuppliers": [" ", "aig", "allianzcp","axa", "asia", "bangkok", "deves"],
+        "motorbikeinsurancebrand": [" ", "bmw", "ducati","harley-davidson", "honda", "kawasaki"],
+
+        "cashcardold": ["cash-card", "cash-card/citi-ready-credit", "cash-card/ktc-proud", "cash-card/uob-icash-plus", "cash-card/kkp-cash-card"],
+        
+        "cashcardnew": ["cash-card","cash-card/citi/citi-ready-credit", "cash-card/ktc/ktc-proud", "cash-card/uob/uob-cash-plus", "cash-card/kkp-cash-card"],
+
+        "creditcardold": ["credit-card-partners/citi-credit-card", "credit-card-partners/citi-credit-card/flash-promotion", "credit-card-partners/kbank", 
+                        "credit-card-partners/shopee-credit-card", "credit-card-partners/krungsri-credit-card", "credit-card-partners/ktc-credit-card",
+                        "credit-card-partners/TMB-Credit-Card", "credit-card-partners/uob"],
+
+        "creditcardnew": ["credit-card/citibank", "credit-card/citibank-flash-promotion", "credit-card/kbank", "credit-card/kbank-shopee", 
+            "credit-card/krungsri", "credit-card/ktc", "credit-card/ttb", "credit-card/uob"],
+
+        "loanold": ["loan", "loan/auto-loan", "loan/auto-loan/kiatnakin-phatra-car-quick-cash", "loan/auto-loan/kleasing", "loan/auto-loan/scb-auto-loan", 
+            "leasing/asn-leasing", "leasing/krungsri-auto-car4cash", "loan/home-loan", "loan/home-loan/uob-cash-to-home", "loan/home-loan/uob-home", 
+            "home-loan-refinancing/uob-home-refinance", "loan/personalloan", "loan/personalloan/citi-personal-loan", "loan/citi-lop-quick-cash",
+            "loan/personalloan/kiatnakin-phatra-personal-loan", "loan/personalloan/scb-personal-loan", "loan/personalloan/uob-personal-loan",
+            "loan/personalloan/lhbank-happy-cash", "loan/personalloan/tmb-cash2go"],
+            
+        "loannew": ["loan", "leasing", "leasing/kiatnakin-phatra-car-quick-cash", "leasing/kleasing", "leasing/scb-my-car-my-cash", "leasing/asn-finance", 
+            "leasing/krungsri-car4cash", "home-loan", "home-loan/uob-cash-to-home", "home-loan/uob-home", "home-loan/uob-refinance", "personal-loan",
+            "personal-loan/citi", "personal-loan/citi-lop-quick-cash", "personal-loan/kiatnakin-phatra", "personal-loan/scb-speedy-loan", "personal-loan/uob",
+            "personal-loan/lh-bank", "personal-loan/ttb-cash2go"],
+
+        "healthinsuranceold": ["health-insurance", "health-insurance/child", "health-insurance/bki/happy-healthy", "health-insurance/thailife", "health-insurance/IPD-OPD",
+            "health-insurance/IPD-OPD/generali-health-lump-sum", "health-insurance/IPD-OPD/generali-health-lump-sum-senior", "health-insurance/IPD-OPD/manulife-finsurance",
+            "health-insurance/IPD-OPD/viriyah-aoonjairak", "health-insurance/IPD-OPD/viriyah-piemjairak", "health-insurance/IPD-OPD/viriyah-sookjairak",
+            "health-insurance/IPD-OPD/mtl-elitehealth", "health-insurance/IPD-OPD/mtl-dhealth", "health-insurance/bki/care-plus", "",
+            "health-insurance/aetna", "health-insurance/thailife/เติมเงินยามป่วย", "en/expat-insurance-all", "health-insurance/IPD-OPD/cigna-hip-simple",
+            "health-insurance/IPD-OPD/aetna-beyond-personal-care", "health-insurance/IPD-OPD/aetna-platinum", "health-insurance/TM-HLS",
+            "health-insurance/IPD-OPD/generali-health-geb", "health-comparison-main", "health-insurance/IPD-OPD/bki-health-lump-sum", "shop/health-insurance/health-topup"],
+        
+        "healthinsurancenew": ["health-insurance", "health-insurance/child", "health-insurance/child/bki-happy-healthy", "health-insurance/suppliers/thailife", 
+            "health-insurance/ipd-opd", "health-insurance/ipd-opd/generali-health-lump-sum", "health-insurance/ipd-opd/generali-health-lump-sum-senior", 
+            "health-insurance/ipd-opd/kwilife-finsurance", "health-insurance/ipd-opd/viriyah-aoonjairak", "health-insurance/ipd-opd/viriyah-piemjairak",
+            "health-insurance/ipd-opd/viriyah-sookjairak", "health-insurance/ipd-opd/mtl-elitehealth", "health-insurance/ipd-opd/mtl-dhealth",
+            "health-insurance/ipd-opd/bki-care-plus", "health-insurance/ipd-opd/aetna-personal-care", "health-insurance/compensate-income/thailife-refill",
+            "en/expat-insurance", "health-insurance/ipd-opd/cigna-hip-simple", "health-insurance/ipd-opd/aetna-beyond-personal-care", "health-insurance/ipd-opd/aetna-platinum",
+            "health-insurance/ipd-opd/tokio-marine-health-lump-sum", "health-insurance/ipd-opd/generali-group-employee-benefit", "health-insurance-comparison",
+            "health-insurance/ipd-opd/bki-health-lump-sum", "health-insurance/online-purchase-insurance"]
+
+    }
+}
