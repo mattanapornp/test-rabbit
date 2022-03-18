@@ -27,34 +27,12 @@ jobs:
     - name: Make Directory for results
       run: |
         mkdir -p testResults
-      
-    - name: Test
-      run: |
-          cat <<EOF > $HOME/subscript.sh
-          #!/bin/sh
-          exit 1
-          EOF
-          chmod +x $HOME/subscript.sh
-          
-          cat <<EOF > test.sh
-          #!/bin/bash
-          $HOME/subscript.sh
-          if [ $? -ne 0 ]; then
-              echo PASS
-          fi;
-          EOF
-          
-          chmod +x ./test.sh
-          echo START
-          source ./test.sh || true
-          echo END
-          
  
    # Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
       run: |
-        newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-htmlextra-darkTheme  > testResults/runreport1.html
-    
+        newman run ./tests/payment-backend-collection.json
+        
     # Upload test results
     - name: Output the run Details
       uses: actions/upload-artifact@v2
