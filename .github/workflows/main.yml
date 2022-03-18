@@ -31,15 +31,14 @@ jobs:
    # Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
       run: |
-        newman run ./tests/payment-backend-collection.json
-                
+      
           cat <<EOF > $HOME/subscript.sh
           #!/bin/sh
           exit 1
           EOF
           chmod +x $HOME/subscript.sh
           
-          cat <<EOF > tests/payment-backend-collection.jso
+          cat <<EOF > tests/payment-backend-collection.json
           #!/bin/bash
           $HOME/subscript.sh
           if [ $? -ne 0 ]; then
@@ -47,11 +46,13 @@ jobs:
           fi;
           EOF
           
-          chmod +x ./tests/payment-backend-collection.jso
+          chmod +x ./tests/payment-backend-collection.json
           echo START
-          source ./tests/payment-backend-collection.jso || true
+          source ./tests/payment-backend-collection.json || true
           echo END
           
+          newman run ./tests/payment-backend-collection.json
+                        
     # Upload test results
     - name: Output the run Details
       uses: actions/upload-artifact@v2
