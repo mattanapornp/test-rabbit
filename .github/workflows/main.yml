@@ -39,17 +39,3 @@ jobs:
       with: 
        name: RunReports
        path: testResults
-
-    # Sent notify to Slack channel
-    - name: Slack Notification
-      uses: rtCamp/action-slack-notify@v2
-      env:
-        SLACK_CHANNEL: test-auto-payment
-        SLACK_COLOR: ${{ job.status }} # or a specific color like 'good' or '#ff00ff'
-        SLACK_ICON: https://github.com/rtCamp.png?size=48
-        SLACK_MESSAGE: 'Test PAYMENT Backend APY'
-        SLACK_TITLE: Github action
-        SLACK_USERNAME: Newman auto
-        SLACK_WEBHOOK: ${{ secrets.https://hooks.slack.com/services/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 }}
-       
-       
