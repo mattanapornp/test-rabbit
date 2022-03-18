@@ -8,4 +8,5 @@ stages :
     entrypoint : [""]
   script :
     - newman --version
+    - newman run payment_backend_collection.json
     
