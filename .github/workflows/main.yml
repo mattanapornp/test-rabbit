@@ -32,7 +32,26 @@ jobs:
     - name: Run POSTMAN collection
       run: |
         newman run ./tests/payment-backend-collection.json
-        
+                
+          cat <<EOF > $HOME/subscript.sh
+          #!/bin/sh
+          exit 1
+          EOF
+          chmod +x $HOME/subscript.sh
+          
+          cat <<EOF > tests/payment-backend-collection.jso
+          #!/bin/bash
+          $HOME/subscript.sh
+          if [ $? -ne 0 ]; then
+              echo PASS
+          fi;
+          EOF
+          
+          chmod +x ./tests/payment-backend-collection.jso
+          echo START
+          source ./tests/payment-backend-collection.jso || true
+          echo END
+          
     # Upload test results
     - name: Output the run Details
       uses: actions/upload-artifact@v2
