@@ -50,6 +50,6 @@ jobs:
         SLACK_MESSAGE: 'Test PAYMENT Backend APY'
         SLACK_TITLE: Github action
         SLACK_USERNAME: Newman auto
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_WEBHOOK: ${{ secrets.https://hooks.slack.com/services/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 }}
        
        
