@@ -40,7 +40,7 @@ jobs:
         git config --local user.email "mattanapornp@rabbit.co.th"
         git config --local user.name "GitHub Action"
         git checkout -B master
-        git add -f public/
+        git add .
         git commit -m "test add result"
         git push -f origin master    
         
