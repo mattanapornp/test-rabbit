@@ -1,19 +1,13 @@
 on: workflow_dispatch
 name: Slack Notification Demo
 jobs:
-  slackNotification:
-      name: Slack Notification
-      runs-on: ubuntu-latest
-      steps:
-      - name: Slack Notification
-        uses: rtCamp/action-slack-notify@v2
-        env:
-          SLACK_CHANNEL: test-auto-payment
-          SLACK_COLOR: ${{ job.status }} # or a specific color like 'good' or '#ff00ff'
-          SLACK_ICON: https://github.com/rtCamp.png?size=48
-          SLACK_MESSAGE: 'Test PAYMENT Backend APY'
-          SLACK_TITLE: Github action
-          SLACK_USERNAME: Newman auto
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        
-
+  slack:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Notify slack
+      env:
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      uses: pullreminders/slack-action@master
+      with:
+        args: '{\"channel\":\"C037VU6K8EM\",\"text\":\"Hello world\"}'
