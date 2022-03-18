@@ -39,3 +39,11 @@ jobs:
       with: 
        name: RunReports
        path: testResults
+
+    # Send notify to slack channel
+    - name: Notify slack
+      env:
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      uses: pullreminders/slack-action@master
+      with:
+        args: '{\"channel\":\"C037VU6K8EM\",\"text\":\"Hello world\"}'
