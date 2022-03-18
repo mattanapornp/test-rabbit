@@ -31,7 +31,7 @@ jobs:
    # Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
       run: |
-        newman run ../tests/payment_backend_collection.json -e ../tests/payment_backend_collection.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-htmlextra-darkTheme  > testResults/runreport1.html   
+        newman run ./tests/payment_backend_collection.json -e ./tests/payment_backend_collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-htmlextra-darkTheme  > testResults/runreport1.html   
     
     # Upload test results
     - name: Output the run Details
