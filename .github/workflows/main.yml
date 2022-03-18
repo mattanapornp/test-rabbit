@@ -30,22 +30,7 @@ jobs:
  
    # Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
-      run: |
-      
-          cat <<EOF > $HOME/subscript.sh
-          #!/bin/sh
-          exit 1
-          EOF
-          chmod +x $HOME/subscript.sh
-          
-          cat <<EOF > tests/payment-backend-collection.json
-          #!/bin/bash
-          $HOME/subscript.sh
-          if [ $? -ne 0 ]; then
-              echo PASS
-          fi;
-          EOF
-          
+      run: |    
           chmod +x ./tests/payment-backend-collection.json
           echo START
           source ./tests/payment-backend-collection.json || true
