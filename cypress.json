@@ -1,9 +1,0 @@
-{
-  "projectId": "w5efmw",
-  "baseUrl": "https://staging-rc-loan-lease-app.rabbitinternet.com",
-  "chromeWebSecurity": false,
-  "testFiles": "**/*.{feature,features}",
-  "env": {
-    "TAGS": "not @ignore"
-  }
-}
