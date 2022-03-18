@@ -2,9 +2,9 @@ name: Newman Run After Push Code
 on: 
   push:
     branches:
-      - main
+      - master
 jobs:
-  newman:
+  newman-test-api:
     runs-on: ubuntu-latest
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it    
@@ -15,7 +15,7 @@ jobs:
     - name: Install Node
       uses: actions/setup-node@v1
       with: 
-        node-version: '12.x'
+        node-version: '17.x'
           
     # Install the newman command line utility and also install the html extra reporter
     - name: Install newman
@@ -27,12 +27,12 @@ jobs:
     - name: Make Directory for results
       run: |
         mkdir -p testResults
-   
-   # Run POSTMAN collection and output the file as html
+ 
+    #Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
-      run: |
-       newman run ./tests/payment_backend_collection.json -e ./tests/payment_backend_collection.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-htmlextra-darkTheme  > testResults/runreport1.html   
-    
+      run: |    
+        newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-htmlextra-darkTheme  > testResults/runreport1.html
+        
     # Upload test results
     - name: Output the run Details
       uses: actions/upload-artifact@v2
