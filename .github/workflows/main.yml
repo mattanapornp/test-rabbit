@@ -1,5 +1,4 @@
 name: Newman Run
-
 on:
   push:
     branches:
@@ -10,7 +9,7 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it    
     - name: Checkout Repository
-    - uses: actions/checkout@master
+      uses: actions/checkout@master
       
     # Install Node on the runner
     - name: Install Node
