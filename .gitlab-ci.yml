@@ -11,6 +11,7 @@ stages :
     - npm install -g newman-reporter-html
     - newman run payment_backend_collection.json --reporters cli,html --reporter-html-export report.html
   artifacts :
+    when : always
     paths :
       - report.html
      
