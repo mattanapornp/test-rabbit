@@ -4,7 +4,7 @@ on: workflow_dispatch
     #branches:
       #- master
 jobs:
-  test-api:
+  newman-test-api:
     runs-on: ubuntu-latest
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it    
@@ -28,21 +28,10 @@ jobs:
       run: |
         mkdir -p testResults
  
-   # Run POSTMAN collection and output the file as html
-    #- name: Run POSTMAN collection
-    #  run: |    
-    #    newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-htmlextra-darkTheme  > testResults/runreport1.html
-   
-   # Push   
-    - name: Commit built assets
-      run: |
-        newman run ./tests/payment-backend-collection.json
-        git config --local user.email "mattanapornp@rabbit.co.th"
-        git config --local user.name "GitHub Action"
-        git checkout -B master
-        git add .
-        git commit -m "test add result"
-        git push -f origin master    
+    #Run POSTMAN collection and output the file as html
+    - name: Run POSTMAN collection
+      run: |    
+        newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-htmlextra-darkTheme  > testResults/runreport1.html
         
     # Upload test results
     - name: Output the run Details
