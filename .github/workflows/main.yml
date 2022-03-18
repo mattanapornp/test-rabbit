@@ -31,7 +31,8 @@ jobs:
    # Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
       run: |
-        newman run ./tests/payment_backend_collection.json -e ./tests/payment_backend_collection-env.json -r htmlextra
+        newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-htmlextra-darkTheme  > testResults/runreport1.html
+    
     # Upload test results
     - name: Output the run Details
       uses: actions/upload-artifact@v2
