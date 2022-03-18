@@ -2,7 +2,7 @@ name: Newman Run
 on: workflow_dispatch
   #push:
     #branches:
-      #- main
+      #- master
 jobs:
   newman:
     runs-on: ubuntu-latest
@@ -15,7 +15,7 @@ jobs:
     - name: Install Node
       uses: actions/setup-node@v1
       with: 
-        node-version: '12.x'
+        node-version: '17.x'
           
     # Install the newman command line utility and also install the html extra reporter
     - name: Install newman
@@ -31,12 +31,7 @@ jobs:
    # Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
       run: |    
-          chmod +x ./tests/payment-backend-collection.json
-          echo START
-          source ./tests/payment-backend-collection.json || true
-          echo END
-          
-          newman run ./tests/payment-backend-collection.json
+        newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-htmlextra-darkTheme  > testResults/runreport1.html
                         
     # Upload test results
     - name: Output the run Details
