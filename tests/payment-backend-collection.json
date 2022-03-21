@@ -354,7 +354,7 @@
 					},
 					{
 						"key": "Cookie",
-						"value": "ory_kratos_session=MTY0NzU5NzA3OXxEdi1CQkFFQ180SUFBUkFCRUFBQVJfLUNBQUVHYzNSeWFXNW5EQThBRFhObGMzTnBiMjVmZEc5clpXNEdjM1J5YVc1bkRDSUFJRkZrZVZkQ2N6VnNOa1F5Y0VSeVdVY3lORFpTVjFZMFVGZG9kVmQwY25wS3xouJLLTF9ZGPxwsQdxd7WgeofpJyx5Y0dO7c4-u62wnw==; Path=/; Expires=Sat, 12 Mar 2022 08:43:30 GMT;",
+						"value": "ory_kratos_session=MTY0Nzg0MDA0N3xEdi1CQkFFQ180SUFBUkFCRUFBQVJfLUNBQUVHYzNSeWFXNW5EQThBRFhObGMzTnBiMjVmZEc5clpXNEdjM1J5YVc1bkRDSUFJSFZRYkdKeVFrOXNPRU0xT1ZJM2NWazFTV2hRTWs5MWNVRTVWV0V4UldaV3wQX-iMhAxvrMWc9odmAoAP6eCE2I6exnlwO7BjGUEkvA==; Path=/; Expires=Sat, 12 Mar 2022 08:43:30 GMT;",
 						"type": "text"
 					}
 				],
