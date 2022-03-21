@@ -32,6 +32,7 @@ jobs:
     - name: Run POSTMAN collection
       run: |    
         newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
+        chmod +x entrypoint.sh
         
     # Upload test results
     - name: Output the run Details
