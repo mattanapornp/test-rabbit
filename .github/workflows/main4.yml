@@ -31,3 +31,4 @@ jobs:
     - name: run newman and send notify to slack
       run: |
         newman run ./tests/payment-backend-collection.json -r cli,slack --reporter-slack-channel 'test-auto-payment' --reporter-slack-webhook-url 'https://hooks.slack.com/services/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'
+        curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello world"}' https://hooks.slack.com/services/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
