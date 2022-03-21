@@ -46,4 +46,5 @@ jobs:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: pullreminders/slack-action@master
       with:
-        args: '{\"channel\":\"C037VU6K8EM\",\"Payment backend collection\":\"Passed\",\"See test result\":\"https%3A%2F%2Fgithub.com%2Fmattanapornp%2Ftest-rabbit%2Factions%2Fworkflows%2Fmain.yml\"}'
+        args: '{"channel":"C037VU6K8EM","text":"I hope the tour went well, Mr. Wonka.","attachments":[{"text":"Who wins the lifetime supply of chocolate?","fallback":"You could be telling the computer exactly what it can do with a lifetime supply of chocolate.","color":"#3AA3E3","attachment_type":"default","callback_id":"https://github.com/mattanapornp/test-rabbit/actions/workflows/main.yml","actions":[{"name":"winners_list","text":"Who should win?","type":"select","data_source":"users"}]}]}'
+        #args: '{\"channel\":\"C037VU6K8EM\",\"Payment backend collection\":\"Passed\",\"See test result\":\"https%3A%2F%2Fgithub.com%2Fmattanapornp%2Ftest-rabbit%2Factions%2Fworkflows%2Fmain.yml\"}'
