@@ -1,10 +1,10 @@
 name: Run test PAYMENT backend collection
-on: #workflow_dispatch
-  push:
-    branches:
-      - master
+on: workflow_dispatch
+  #push:
+    #branches:
+      #- master
 jobs:
-  newman-test-api:
+  run-test-PAYMENT-backend-collection:
     runs-on: ubuntu-latest
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it    
@@ -32,7 +32,6 @@ jobs:
     - name: Run POSTMAN collection
       run: |    
         newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
-        chmod +x entrypoint.sh
         
     # Upload test results
     - name: Output the run Details
