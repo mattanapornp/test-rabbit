@@ -23,10 +23,10 @@ jobs:
        npm install -g newman
        npm install -g newman-reporter-htmlextra
     
-    # Make directory to upload the test results
-    - name: Make Directory for results
+    # give permission file
+    - name: set permission newman
       run: |
-        mkdir -p testResults
+         chmod 744 Newman-to-Slack.sh
  
     #Run POSTMAN collection
     - name: run newman and send notify to slack
