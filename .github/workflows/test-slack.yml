@@ -44,8 +44,7 @@ jobs:
       # Run postman collection
       - name: Run Postman Collection        
         run: |
- 
-        newman  run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json  --suppress-exit-code -r slackreporter,htmlextra --reporter-htmlextra-export testArtifacts/htmlreport.html --reporter-slackreporter-webhookurl ${{ secrets.SLACK_BOT_TOKEN }}
+         newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json --suppress-exit-code -r slackreporter,htmlextra --reporter-htmlextra-export testArtifacts/htmlreport.html --reporter-slackreporter-webhookurl ${{ secrets.SLACK_BOT_TOKEN }}
      
       # Upload the reports to TestArtifacts directory
       - name: Output the results
