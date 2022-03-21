@@ -43,7 +43,7 @@ jobs:
     #slackNotification:
     - name: Slack Notification
       #runs-on: ubuntu-latest
-      uses: abinoda/slack-action@master
+      uses: pullreminders/slack-action@master
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_BOT_TOKEN }}
       with:
