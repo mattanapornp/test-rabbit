@@ -1,4 +1,4 @@
-name: Newman Run
+name: Newman Run Test
 on: workflow_dispatch
   #push:
     #branches:
