@@ -1,5 +1,5 @@
-export SLACK_WEBHOOK_URL='https://hooks.slack.com/services/xxx/yyy/zzzzzzzzzzzz'
-export SLACK_CHANNEL='#slack-channel'
+export SLACK_WEBHOOK_URL='https://hooks.slack.com/services/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'
+export SLACK_CHANNEL='test-auto-payment'
 export TITLE='newman run title'
 export HEADER='newman run header'
 {
