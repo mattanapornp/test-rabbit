@@ -40,15 +40,16 @@ jobs:
        name: RunReports
        path: testResults
 
-    slackNotification:
+  slackNotification:
     name: Slack Notification
-      steps:
-      - uses: actions/checkout@v2
-      - name: Slack Notification
-        uses: rtCamp/action-slack-notify@v2
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Slack Notification
+      uses: rtCamp/action-slack-notify@v2
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_BOT_TOKEN }}
-
+        
     #Send notify to slack channel
     #- name: Notify slack
     #  env:
