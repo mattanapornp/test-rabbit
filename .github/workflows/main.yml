@@ -46,5 +46,5 @@ jobs:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: pullreminders/slack-action@master
       with:
-        args: '{\"channel\":\"C037VU6K8EM\",\"text\":\"Run test PAYMENT backend collection PASSED\"}'
+        args: '{"channel":"C037VU6K8EM",{"blocks": [{"type": "section","text": {\"type": "mrkdwn",: "Hello, Newman run test PAYMENT backend collection"}},{"type": "divider"},{"type": "section","text": {"type": "mrkdwn","text": "*Test Result : PASSED*\n You can click the button to see more detail on GITHUB ACTION"},"accessory": {"type": "button","text": {"type": "plain_text","text": "Click Me","emoji": true},"value": "click_me","url": "https://github.com/mattanapornp/test-rabbit/actions/workflows/main.yml","action_id": "button-action"}}]}}'
         #args: '{\"channel\":\"C037VU6K8EM\",\"Payment backend collection\":\"Passed\",\"See test result\":\"https%3A%2F%2Fgithub.com%2Fmattanapornp%2Ftest-rabbit%2Factions%2Fworkflows%2Fmain.yml\"}'
