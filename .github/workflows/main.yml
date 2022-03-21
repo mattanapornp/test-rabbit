@@ -46,4 +46,4 @@ jobs:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: pullreminders/slack-action@master
       with:
-        args: '{\"channel\":\"C037VU6K8EM\",\"text\":\"Payment backend collection\":\"Passed\",\"See test result\":\"https://github.com/mattanapornp/test-rabbit/actions/workflows/main.yml\"}'
+        args: '{\"channel\":\"C037VU6K8EM\",\"Payment backend collection\":\"Passed\",\"See test result\":\"https://github.com/mattanapornp/test-rabbit/actions/workflows/main.yml\"}'
