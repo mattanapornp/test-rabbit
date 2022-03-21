@@ -4,7 +4,7 @@ on: workflow_dispatch
     #branches:
       #- master
 jobs:
-  run-test-PAYMENT-backend-collection:
+  run-test-payment-backend-collection:
     runs-on: ubuntu-latest
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it    
@@ -47,7 +47,7 @@ jobs:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: abinoda/slack-action@master
       with:
-        args: '{\"channel\":\"C037VU6K8EM\",\"blocks\": [{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"Hello there :rabbitcare: \n Run test PAYMENT backend collection\"}},{\"type\": \"divider\"},{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"*Test Result : PASS* :white_check_mark: \n You can select the button to see RunReports :arrow_right: :arrow_right:\"},\"accessory\": {\"type\": \"button\",\"text\": {\"type\": \"plain_text\",\"text\": \"RunReports\",\"emoji\": true},\"value\": \"RunReports\",\"url\": \"https://github.com/mattanapornp/test-rabbit/actions/workflows/main.yml\",\"action_id\": \"button-action\"}}]}'
+        args: '{\"channel\":\"C037VU6K8EM\",\"blocks\": [{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"Hello there :rabbitcare: \n Run test PAYMENT backend collection\"}},{\"type\": \"divider\"},{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"*Test Result : PASS* :white_check_mark: \n You can select the button to see RunReports :arrow_right: :arrow_right:\"},\"accessory\": {\"type\": \"button\",\"text\": {\"type\": \"plain_text\",\"text\": \"RunReports\",\"emoji\": true},\"value\": \"RunReports\",\"url\": \"https://github.com/mattanapornp/test-rabbit/actions/workflows/BE_payment_notify_slack.yml\",\"action_id\": \"button-action\"}}]}'
 
     # Pick up events even if the job is success.
       if: success()
