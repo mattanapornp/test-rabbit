@@ -1,8 +1,8 @@
 name: Run test PAYMENT backend collection
-on: workflow_dispatch
-  #push:
-    #branches:
-      #- master
+on: #workflow_dispatch
+  push:
+    branches:
+      - master
 jobs:
   run-test-payment-backend-collection:
     runs-on: ubuntu-latest
