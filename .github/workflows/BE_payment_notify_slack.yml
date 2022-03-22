@@ -45,7 +45,7 @@ jobs:
     #Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
       run: |
-        newman run m./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json --r cli,json --reporter-json-export testResults/htmlreport.json
+        newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json --r cli,json --reporter-json-export testResults/htmlreport.json
         newman run collection.json -r htmlextra
     #- name: Run POSTMAN send slack
       #run: |   
