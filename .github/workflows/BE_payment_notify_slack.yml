@@ -8,10 +8,13 @@ on:
   #     branches: [ master ]
   
   schedule:
-  - cron: '27 15 * * 1-5' #Run at 16:00(GMT) on Mon-Fri
-
-  # Allows you to run this workflow manually from the Actions tab
+    - cron: 38 15 * * 1-5
   workflow_dispatch:
+    inputs:
+      cron:
+        description: Cron schedule expression
+        required: true
+        default: 0 16 * * 1-5
 
 jobs:
   run-test-payment-backend-collection:
