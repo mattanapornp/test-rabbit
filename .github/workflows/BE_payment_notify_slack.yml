@@ -47,9 +47,9 @@ jobs:
       run: |
         newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
         
-    - name: Run POSTMAN send slack
-      run: |   
-        newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json --suppress-exit-code -r slackmsg --reporter-slackmsg-webhookurl 'https://hooks.slack.com/services/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'
+    #- name: Run POSTMAN send slack
+      #run: |   
+        #newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json --suppress-exit-code -r slackmsg --reporter-slackmsg-webhookurl 'https://hooks.slack.com/services/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'
         
     # Upload test results
     - name: Output the run Details
