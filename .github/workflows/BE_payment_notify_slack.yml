@@ -42,14 +42,12 @@ jobs:
         mkdir -p testResults
  
     #Run POSTMAN collection and output the file as html
-    #- name: Run POSTMAN collection
-      #run: |
-      # newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json --r cli,json --reporter-json-export testResults/htmlreport.json    
-      # newman run ./tests/payment-backend-collection.json -r htmlextra
+    - name: Run POSTMAN collection
+      run: |
+        newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-json-export testResults/htmlreport.json 
        
     - name: Run POSTMAN send slack
       run: |   
-        newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
         newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json --suppress-exit-code -r slackmsg --reporter-slackmsg-webhookurl '<https://hooks.slack.com/services/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>'
       
     # Upload test results
@@ -71,10 +69,3 @@ jobs:
 
     # Pick up events even if the job is success.
       #if: success()
-
-  #runReport:
-    #runs-on: ubuntu-latest
-    #steps:
-    #- name: Generate Report
-      #run: |
-        #npm run report
