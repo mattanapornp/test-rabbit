@@ -8,7 +8,7 @@ on:
   #     branches: [ master ]
   
   schedule:
-    - cron: '0 1 * * 1-5'
+    - cron: '0 16 * * 1-5' #Run at 16:00 on Mon-Fri
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -41,7 +41,7 @@ jobs:
     #Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
       run: |    
-        newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
+        newman run ./tests/BE/payment-backend-collection.json -e ./tests/BE/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
         
     # Upload test results
     - name: Output the run Details
