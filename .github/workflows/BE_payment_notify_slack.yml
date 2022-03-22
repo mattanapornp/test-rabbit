@@ -8,7 +8,7 @@ on:
   #     branches: [ master ]
   
   schedule:
-    - cron: 57 15 * * 1-5 #(GMT -7hr)
+    - cron: 10 16 * * 1-5 #(GMT -7hr)
   workflow_dispatch:
     #inputs:
       #cron:
@@ -45,11 +45,11 @@ jobs:
     #Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
       run: |
-        newman run ./tests/BE/payment-backend-collection.json -e ./tests/BE/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
+        newman run ./tests/backend/payment-backend-collection.json -e ./tests/backend/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
         
     - name: Run POSTMAN send slack
       run: |   
-        newman run ./tests/BE/payment-backend-collection.json -e ./tests/BE/payment-backend-collection-env.json --suppress-exit-code -r slackmsg --reporter-slackmsg-webhookurl 'https://hooks.slack.com/services/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'
+        newman run ./tests/backend/payment-backend-collection.json -e ./tests/backend/payment-backend-collection-env.json --suppress-exit-code -r slackmsg --reporter-slackmsg-webhookurl 'https://hooks.slack.com/services/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'
         
     # Upload test results
     - name: Output the run Details
