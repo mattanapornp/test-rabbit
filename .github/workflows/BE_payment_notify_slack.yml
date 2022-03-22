@@ -1,6 +1,6 @@
 name: Run test PAYMENT backend collection
 
-on:
+on: workflow_dispatch:
   # Triggers the workflow on push or pull request events but only for the main branch
   #   push:
   #     branches: [ master ]
@@ -9,7 +9,7 @@ on:
   
   #schedule:
     #- cron: 00 09 * * 1-5 #(GMT -7hr)
-  workflow_dispatch:
+  #workflow_dispatch:
     #inputs:
       #cron:
         #description: Cron schedule expression
