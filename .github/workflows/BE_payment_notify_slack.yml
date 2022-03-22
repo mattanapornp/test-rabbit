@@ -8,7 +8,7 @@ on:
   #     branches: [ master ]
   
   schedule:
-    - cron: 10 16 * * 1-5 #(GMT -7hr)
+    - cron: 00 16 * * 1-5 #(GMT -7hr)
   workflow_dispatch:
     #inputs:
       #cron:
