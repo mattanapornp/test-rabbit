@@ -45,10 +45,11 @@ jobs:
     #Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
       run: |
-        newman run ./tests/payment-backend-collection.json #-e ./tests/payment-backend-collection-env.json --r cli,json --reporter-json-export testResults/htmlreport.json
+        newman run ./tests/payment-backend-collection.json 
         newman run ./tests/payment-backend-collection.json -r htmlextra
     #- name: Run POSTMAN send slack
       #run: |   
+      # -e ./tests/payment-backend-collection-env.json --r cli,json --reporter-json-export testResults/htmlreport.json
         #newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
         #newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json --suppress-exit-code -r slackmsg --reporter-slackmsg-webhookurl 'https://hooks.slack.com/services/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'
         
