@@ -8,13 +8,13 @@ on:
   #     branches: [ master ]
   
   schedule:
-    - cron: 38 15 * * 1-5
+    - cron: 57 15 * * 1-5 #(GMT -7hr)
   workflow_dispatch:
-    inputs:
-      cron:
-        description: Cron schedule expression
-        required: true
-        default: 0 16 * * 1-5
+    #inputs:
+      #cron:
+        #description: Cron schedule expression
+        #required: true
+        #default: 0 16 * * 1-5
 
 jobs:
   run-test-payment-backend-collection:
@@ -44,8 +44,11 @@ jobs:
  
     #Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
-      run: |    
+      run: |
         newman run ./tests/BE/payment-backend-collection.json -e ./tests/BE/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
+        
+    - name: Run POSTMAN send slack
+      run: |   
         newman run ./tests/BE/payment-backend-collection.json -e ./tests/BE/payment-backend-collection-env.json --suppress-exit-code -r slackmsg --reporter-slackmsg-webhookurl 'https://hooks.slack.com/services/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'
         
     # Upload test results
@@ -55,22 +58,22 @@ jobs:
        name: RunReports
        path: testResults
        
-  slackNotification:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Slack Notification
-      env:
-        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-      uses: abinoda/slack-action@master
-      with:
-        args: '{\"channel\":\"C037VU6K8EM\",\"blocks\": [{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"Hello there :rabbitcare: \n Run test PAYMENT backend collection\"}},{\"type\": \"divider\"},{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"*Test Result : PASS* :white_check_mark: \n You can select the button to see RunReports :arrow_right: :arrow_right:\"},\"accessory\": {\"type\": \"button\",\"text\": {\"type\": \"plain_text\",\"text\": \"RunReports\",\"emoji\": true},\"value\": \"RunReports\",\"url\": \"https://github.com/mattanapornp/test-rabbit/actions/workflows/BE_payment_notify_slack.yml\",\"action_id\": \"button-action\"}}]}'
+  #slackNotification:
+    #runs-on: ubuntu-latest
+    #steps:
+    #- name: Slack Notification
+      #env:
+        #SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      #uses: abinoda/slack-action@master
+      #with:
+        #args: '{\"channel\":\"C037VU6K8EM\",\"blocks\": [{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"Hello there :rabbitcare: \n Run test PAYMENT backend collection\"}},{\"type\": \"divider\"},{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"*Test Result : PASS* :white_check_mark: \n You can select the button to see RunReports :arrow_right: :arrow_right:\"},\"accessory\": {\"type\": \"button\",\"text\": {\"type\": \"plain_text\",\"text\": \"RunReports\",\"emoji\": true},\"value\": \"RunReports\",\"url\": \"https://github.com/mattanapornp/test-rabbit/actions/workflows/BE_payment_notify_slack.yml\",\"action_id\": \"button-action\"}}]}'
 
     # Pick up events even if the job is success.
-      if: success()
+      #if: success()
 
-  runReport:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Generate Report
-      run: |
-        npm run report
+  #runReport:
+    #runs-on: ubuntu-latest
+    #steps:
+    #- name: Generate Report
+      #run: |
+        #npm run report
