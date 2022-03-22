@@ -1,0 +1,53 @@
+name: Run test PAYMENT backend collection (backup)
+on: workflow_dispatch
+  #push:
+    #branches:
+      #- master
+jobs:
+  run-test-payment-backend-collection:
+    runs-on: ubuntu-latest
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it    
+    - name: Checkout Repository
+      uses: actions/checkout@master
+      
+    # Install Node on the runner
+    - name: Install Node
+      uses: actions/setup-node@v1
+      with: 
+        node-version: '17.x'
+          
+    # Install the newman command line utility and also install the html extra reporter
+    - name: Install newman
+      run: |
+       npm install -g newman
+       npm install -g newman-reporter-htmlextra
+    
+    # Make directory to upload the test results
+    - name: Make Directory for results
+      run: |
+        mkdir -p testResults
+ 
+    #Run POSTMAN collection and output the file as html
+    - name: Run POSTMAN collection
+      run: |    
+        newman run ./tests/payment-backend-collection.json -e ./tests/payment-backend-collection-env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
+        
+    # Upload test results
+    - name: Output the run Details
+      uses: actions/upload-artifact@v2
+      with: 
+       name: RunReports
+       path: testResults
+
+    #slackNotification:
+    - name: Slack Notification
+      #runs-on: ubuntu-latest
+      env:
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      uses: abinoda/slack-action@master
+      with:
+        args: '{\"channel\":\"C037VU6K8EM\",\"blocks\": [{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"Hello there :rabbitcare: \n Run test PAYMENT backend collection\"}},{\"type\": \"divider\"},{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"*Test Result : PASS* :white_check_mark: \n You can select the button to see RunReports :arrow_right: :arrow_right:\"},\"accessory\": {\"type\": \"button\",\"text\": {\"type\": \"plain_text\",\"text\": \"RunReports\",\"emoji\": true},\"value\": \"RunReports\",\"url\": \"https://github.com/mattanapornp/test-rabbit/actions/workflows/BE_payment_notify_slack.yml\",\"action_id\": \"button-action\"}}]}'
+
+    # Pick up events even if the job is success.
+      if: success()
