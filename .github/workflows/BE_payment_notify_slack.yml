@@ -49,10 +49,11 @@ jobs:
       with: 
        name: RunReports
        path: testResults
-
-    #slackNotification:
+       
+  slackNotification:
+    runs-on: ubuntu-latest
+    steps:
     - name: Slack Notification
-      #runs-on: ubuntu-latest
       env:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: abinoda/slack-action@master
@@ -61,3 +62,10 @@ jobs:
 
     # Pick up events even if the job is success.
       if: success()
+
+  runReport:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Generate Report
+      run: |
+        npm run report
