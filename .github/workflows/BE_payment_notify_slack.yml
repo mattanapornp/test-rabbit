@@ -8,7 +8,7 @@ on:
   #     branches: [ master ]
   
   schedule:
-    - cron: '20 15 * * 1-5' #Run at 16:00(GMT) on Mon-Fri
+  - cron: '27 15 * * 1-5' #Run at 16:00(GMT) on Mon-Fri
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -32,6 +32,7 @@ jobs:
       run: |
        npm install -g newman
        npm install -g newman-reporter-htmlextra
+       npm install -g newman-reporter-slackmsg
     
     # Make directory to upload the test results
     - name: Make Directory for results
