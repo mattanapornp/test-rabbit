@@ -1,5 +1,14 @@
 name: Run test PAYMENT backend collection (backup)
-on: workflow_dispatch
+on:   
+  schedule:
+    - cron: 00 09 * * 1-5 #(GMT -7hr)
+  #workflow_dispatch:
+    #inputs:
+      #cron:
+        #description: Cron schedule expression
+        #required: true
+        #default: 0 16 * * 1-5
+  #workflow_dispatch
   #push:
     #branches:
       #- master
