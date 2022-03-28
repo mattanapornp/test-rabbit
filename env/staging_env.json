@@ -1,18 +1,16 @@
-import {HOST_STAGING} from '../env-config.json'; 
-import {KRATOS_COOKIE} from '../env-config.json'; 
 {
 	"id": "00dcfda2-78c3-4621-b6c7-e2bcc3780731",
 	"name": "CRM Staging",
 	"values": [
 		{
 			"key": "host",
-			"value": "${HOST_STAGING}",
+			"value": "${{secrets.HOST_STAGING}}",
 			"type": "default",
 			"enabled": true
 		},
 		{
 			"key": "kratoscookie",
-			"value": "${KRATOS_COOKIE}",
+			"value": "${{secrets.KRATOS_COOKIE}}",
 			"type": "default",
 			"enabled": true
 		},
