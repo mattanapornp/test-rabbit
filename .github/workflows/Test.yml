@@ -41,8 +41,8 @@ jobs:
     #Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
       run: |   
-        newman run https://www.getpostman.com/collections/c34280afb1d322071293?apikey=PMAK-6241bebe0f1c3d40721c646e-b6cb8f75c05c36b975ae0ede0a9ae0e37b -e https://www.getpostman.com/environments/00dcfda2-78c3-4621-b6c7-e2bcc3780731?apikey=PMAK-6241bebe0f1c3d40721c646e-b6cb8f75c05c36b975ae0ede0a9ae0e37b
-    #newman run https://www.getpostman.com/collections/c34280afb1d322071293 -e ./env/staging_env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
+        newman run https://www.getpostman.com/collections/c34280afb1d322071293?apikey=PMAK-6241bebe0f1c3d40721c646e-b6cb8f75c05c36b975ae0ede0a9ae0e37b -e https://go.postman.co/workspace/Toey's-Workspace~7acec39b-2168-46db-8373-03181a9ae937/environment/17098251-00dcfda2-78c3-4621-b6c7-e2bcc3780731?apikey=PMAK-6241bebe0f1c3d40721c646e-b6cb8f75c05c36b975ae0ede0a9ae0e37b
+    #newman run https://www.getpostman.com/collections/c34280afb1d322071293 -e ./env/staging_env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html 
     # Upload test results
     - name: Output the run Details
       uses: actions/upload-artifact@v2
