@@ -47,9 +47,7 @@ jobs:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       run: |   
         newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }} --bail --suppress-exit-code -r slackreporter,htmlextra --reporter-htmlextra-export testArtifacts/htmlreport.html --reporter-slackreporter-webhookurl ${{ env.SLACK_BOT_TOKEN }}
-    #newman run https://www.getpostman.com/collections/c34280afb1d322071293?apikey=PMAK-6241ca47ebf47644082e142f-9c3bdeb18bdc9df0f6ea52f6d15e3739de \--environment https://www.getpostman.com/environments/17098251-00dcfda2-78c3-4621-b6c7-e2bcc3780731?apikey=PMAK-6241ca47ebf47644082e142f-9c3bdeb18bdc9df0f6ea52f6d15e3739de
-    #newman run "https://api.getpostman.com/collections/$uid?apikey=$apiKey" \--environment "https://api.getpostman.com/environments/$uid?apikey=$apiKey"
-    #newman run https://www.getpostman.com/collections/c34280afb1d322071293 -e ./env/staging_env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html 
+
     # Upload test results
     - name: Output the run Details
       uses: actions/upload-artifact@v2
@@ -58,9 +56,9 @@ jobs:
        path: testResults
 
     #sent slackNotification 
-    - name: Slack Notification
-      env:
-        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-      uses: abinoda/slack-action@master
-      with:
-        args: '{\"channel\":\"C037VU6K8EM\",\"blocks\": [{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"Hello there :rabbitcare: \n Run test PAYMENT backend collection\"}},{\"type\": \"divider\"},{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"*Test Result : PASS* :white_check_mark: \n You can select the button to see RunReports :arrow_right: :arrow_right:\"},\"accessory\": {\"type\": \"button\",\"text\": {\"type\": \"plain_text\",\"text\": \"RunReports\",\"emoji\": true},\"value\": \"RunReports\",\"url\": \"https://github.com/mattanapornp/test-rabbit/actions/workflows/BE_payment_notify_slack.yml\",\"action_id\": \"button-action\"}}]}'
+    #- name: Slack Notification
+      #env:
+        #SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      #uses: abinoda/slack-action@master
+      #with:
+        #args: '{\"channel\":\"C037VU6K8EM\",\"blocks\": [{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"Hello there :rabbitcare: \n Run test PAYMENT backend collection\"}},{\"type\": \"divider\"},{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"*Test Result : PASS* :white_check_mark: \n You can select the button to see RunReports :arrow_right: :arrow_right:\"},\"accessory\": {\"type\": \"button\",\"text\": {\"type\": \"plain_text\",\"text\": \"RunReports\",\"emoji\": true},\"value\": \"RunReports\",\"url\": \"https://github.com/mattanapornp/test-rabbit/actions/workflows/BE_payment_notify_slack.yml\",\"action_id\": \"button-action\"}}]}'
