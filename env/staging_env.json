@@ -4,68 +4,14 @@
 	"values": [
 		{
 			"key": "host",
-			"value": "${{secrets.HOST_STAGING}}",
+			"value": "https://staging-crm.sabye-songkran.com/api",
 			"type": "default",
 			"enabled": true
 		},
 		{
 			"key": "kratoscookie",
-			"value": "${{secrets.KRATOS_COOKIE}}",
+			"value": "MTY0ODQzNjc2N3xEdi1CQkFFQ180SUFBUkFCRUFBQVJfLUNBQUVHYzNSeWFXNW5EQThBRFhObGMzTnBiMjVmZEc5clpXNEdjM1J5YVc1bkRDSUFJRTl6V2tscFVYTjRiVmN5UTBaa1FXeGtZbVl3TUdkRk4ySllSa3N5VEZCS3z3EO5UOmE5COwwOZa3M31HaVcCmrZ_4JXXgm-7vfOulw==",
 			"type": "default",
-			"enabled": true
-		},
-		{
-			"key": "transID",
-			"value": "",
-			"type": "any",
-			"enabled": true
-		},
-		{
-			"key": "tokenID",
-			"value": "",
-			"type": "any",
-			"enabled": true
-		},
-		{
-			"key": "transIDforcharge",
-			"value": "",
-			"type": "any",
-			"enabled": true
-		},
-		{
-			"key": "verify_authorizeUri",
-			"value": "",
-			"type": "any",
-			"enabled": true
-		},
-		{
-			"key": "leadsID",
-			"value": "",
-			"type": "any",
-			"enabled": true
-		},
-		{
-			"key": "authorizeUri",
-			"value": "",
-			"type": "any",
-			"enabled": true
-		},
-		{
-			"key": "thirdPartyId",
-			"value": "",
-			"type": "any",
-			"enabled": true
-		},
-		{
-			"key": "omise_location",
-			"value": "",
-			"type": "any",
-			"enabled": true
-		},
-		{
-			"key": "leadID",
-			"value": "",
-			"type": "any",
 			"enabled": true
 		}
 	],
