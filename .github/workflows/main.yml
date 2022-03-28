@@ -10,9 +10,9 @@ on:
     - cron: 00 09 * * 1-5 #(GMT -7hr)
     
   #Run test workflow after have any push code to master
-  push:
-    branches:
-      - master
+  #push:
+    #branches:
+      #- master
       
 jobs:
   newman:
@@ -40,11 +40,8 @@ jobs:
  
     #Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
-      env:
-        test: ${{ secrets.STAGUNG_ENV }} 
       run: |    
-        newman run https://www.getpostman.com/collections/c34280afb1d322071293 -e $test
-      # -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
+        newman run https://www.getpostman.com/collections/c34280afb1d322071293 -e ./env/staging_env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
 
     # Upload test results
     - name: Output the run Details
