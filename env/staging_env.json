@@ -1,16 +1,18 @@
+HOST_STAGING = env.HOST_STAGING
+KRATOS_COOKIE = env.KRATOS_COOKIE
 {
 	"id": "00dcfda2-78c3-4621-b6c7-e2bcc3780731",
 	"name": "CRM Staging",
 	"values": [
 		{
 			"key": "host",
-			"value": "${{ secrets.HOST_STAGING }}",
+			"value": "${HOST_STAGING}",
 			"type": "default",
 			"enabled": true
 		},
 		{
 			"key": "kratoscookie",
-			"value": "${{ secrets.KRATOS_COOKIE }}",
+			"value": "${KRATOS_COOKIE}",
 			"type": "default",
 			"enabled": true
 		},
