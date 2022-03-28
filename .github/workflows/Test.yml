@@ -41,7 +41,7 @@ jobs:
     #Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
       run: |   
-        newman  run https://api.getpostman.com/collections/c34280afb1d322071293?apikey=PMAK-6241ca47ebf47644082e142f-9c3bdeb18bdc9df0f6ea52f6d15e3739de -e https://api.getpostman.com/environments/17098251-00dcfda2-78c3-4621-b6c7-e2bcc3780731?apikey=PMAK-6241ca47ebf47644082e142f-9c3bdeb18bdc9df0f6ea52f6d15e3739de
+        newman  run https://www.getpostman.com/collections/c34280afb1d322071293?apikey=PMAK-6241ca47ebf47644082e142f-9c3bdeb18bdc9df0f6ea52f6d15e3739de -e https://www.getpostman.com/environments/17098251-00dcfda2-78c3-4621-b6c7-e2bcc3780731?apikey=PMAK-6241ca47ebf47644082e142f-9c3bdeb18bdc9df0f6ea52f6d15e3739de
     #newman run https://www.getpostman.com/collections/c34280afb1d322071293?apikey=PMAK-6241ca47ebf47644082e142f-9c3bdeb18bdc9df0f6ea52f6d15e3739de \--environment https://www.getpostman.com/environments/17098251-00dcfda2-78c3-4621-b6c7-e2bcc3780731?apikey=PMAK-6241ca47ebf47644082e142f-9c3bdeb18bdc9df0f6ea52f6d15e3739de
     #newman run "https://api.getpostman.com/collections/$uid?apikey=$apiKey" \--environment "https://api.getpostman.com/environments/$uid?apikey=$apiKey"
     #newman run https://www.getpostman.com/collections/c34280afb1d322071293 -e ./env/staging_env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html 
