@@ -4,25 +4,13 @@
 	"values": [
 		{
 			"key": "host",
-			"value": "https://staging-crm.sabye-songkran.com/api",
+			"value": "${{ secrets.HOST_STAGING }}",
 			"type": "default",
 			"enabled": true
 		},
 		{
 			"key": "kratoscookie",
-			"value": "MTY0ODQzNjc2N3xEdi1CQkFFQ180SUFBUkFCRUFBQVJfLUNBQUVHYzNSeWFXNW5EQThBRFhObGMzTnBiMjVmZEc5clpXNEdjM1J5YVc1bkRDSUFJRTl6V2tscFVYTjRiVmN5UTBaa1FXeGtZbVl3TUdkRk4ySllSa3N5VEZCS3z3EO5UOmE5COwwOZa3M31HaVcCmrZ_4JXXgm-7vfOulw==",
-			"type": "default",
-			"enabled": true
-		},
-		{
-			"key": "ory_kratos_session",
-			"value": "MTY0NTUxMjI2NXxEdi1CQkFFQ180SUFBUkFCRUFBQVJfLUNBQUVHYzNSeWFXNW5EQThBRFhObGMzTnBiMjVmZEc5clpXNEdjM1J5YVc1bkRDSUFJRGRoYVhsNGRYVnJhR1pOWkZaa1QxTndhR05ITTJrelFVSTNla04wWWpOWnxK2EpocG3j46ju3HsIRu-pfiKZdZ3oxCc2gWmZo7pz5w==",
-			"type": "default",
-			"enabled": false
-		},
-		{
-			"key": "staging",
-			"value": "https://staging-crm.sabye-songkran.com/api",
+			"value": "${{ secrets.KRATOS_COOKIE }}",
 			"type": "default",
 			"enabled": true
 		},
