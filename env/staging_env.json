@@ -1,5 +1,5 @@
-import HOST_STAGING from '../env-config.json'; 
-import KRATOS_COOKIE from '../env-config.json'; 
+import {HOST_STAGING} from '../env-config.json'; 
+import {KRATOS_COOKIE} from '../env-config.json'; 
 {
 	"id": "00dcfda2-78c3-4621-b6c7-e2bcc3780731",
 	"name": "CRM Staging",
