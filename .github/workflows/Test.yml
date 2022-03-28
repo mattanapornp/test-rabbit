@@ -1,0 +1,59 @@
+name: Run test PAYMENT backend collection
+
+on:   
+
+  #Run test workflow manaully
+  workflow_dispatch:
+  
+  #Run test workflow on 4pm every day
+  #schedule:
+    #- cron: 00 09 * * 1-5 #(GMT -7hr)
+    
+  #Run test workflow after have any push code to master
+  #push:
+    #branches:
+      #- master
+      
+jobs:
+  newman:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@master
+      
+    # Install Node on the runner
+    - name: Install Node
+      uses: actions/setup-node@v1
+      with: 
+        node-version: '17.x'
+          
+    # Install the newman command line utility and also install the html extra reporter
+    - name: Install newman
+      run: |
+       npm install -g newman
+       npm install -g newman-reporter-htmlextra
+    
+    # Make directory to upload the test results
+    - name: Make Directory for results
+      run: |
+        mkdir -p testResults
+ 
+    #Run POSTMAN collection and output the file as html
+    - name: Run POSTMAN collection
+      run: |   
+        newman run https://www.getpostman.com/collections/c34280afb1d322071293?apikey=PMAK-6241bebe0f1c3d40721c646e-b6cb8f75c05c36b975ae0ede0a9ae0e37b -e https://www.getpostman.com/environments/00dcfda2-78c3-4621-b6c7-e2bcc3780731?apikey=PMAK-6241bebe0f1c3d40721c646e-b6cb8f75c05c36b975ae0ede0a9ae0e37b
+    #newman run https://www.getpostman.com/collections/c34280afb1d322071293 -e ./env/staging_env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
+    # Upload test results
+    - name: Output the run Details
+      uses: actions/upload-artifact@v2
+      with: 
+       name: RunReports
+       path: testResults
+
+    #sent slackNotification 
+    - name: Slack Notification
+      env:
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      uses: abinoda/slack-action@master
+      with:
+        args: '{\"channel\":\"C037VU6K8EM\",\"blocks\": [{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"Hello there :rabbitcare: \n Run test PAYMENT backend collection\"}},{\"type\": \"divider\"},{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"*Test Result : PASS* :white_check_mark: \n You can select the button to see RunReports :arrow_right: :arrow_right:\"},\"accessory\": {\"type\": \"button\",\"text\": {\"type\": \"plain_text\",\"text\": \"RunReports\",\"emoji\": true},\"value\": \"RunReports\",\"url\": \"https://github.com/mattanapornp/test-rabbit/actions/workflows/BE_payment_notify_slack.yml\",\"action_id\": \"button-action\"}}]}'
