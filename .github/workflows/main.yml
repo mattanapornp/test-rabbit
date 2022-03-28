@@ -40,8 +40,10 @@ jobs:
  
     #Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
+      env:
+        test: ${{ STAGUNG_ENV }} 
       run: |    
-        newman run https://www.getpostman.com/collections/c34280afb1d322071293 -e ${{ STAGUNG_ENV }} 
+        newman run https://www.getpostman.com/collections/c34280afb1d322071293 -e $test
       # -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
 
     # Upload test results
