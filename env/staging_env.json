@@ -1,5 +1,5 @@
-HOST_STAGING = env.HOST_STAGING
-KRATOS_COOKIE = env.KRATOS_COOKIE
+const HOST_STAGING = env.HOST_STAGING
+const KRATOS_COOKIE = env.KRATOS_COOKIE
 {
 	"id": "00dcfda2-78c3-4621-b6c7-e2bcc3780731",
 	"name": "CRM Staging",
