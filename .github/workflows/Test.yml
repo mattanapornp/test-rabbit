@@ -5,9 +5,9 @@ on:
   #Run test workflow manaully
   workflow_dispatch:
   
-  #Run test workflow on 4pm every day
-  #schedule:
-    #- cron: 00 09 * * 1-5 #(GMT -7hr)
+  #Run test workflow on 4pm(UTC+7hr) every day
+  schedule:
+    - cron: 00 09 * * 1-5
     
   #Run test workflow after have any push code to master
   #push:
@@ -45,12 +45,10 @@ jobs:
         COLLECTION_URL: ${{ secrets.COLLECTION_URL }}
         ENVIRONMENT_URL: ${{ secrets.ENVIRONMENT_URL }}    
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-      run: |   
-        newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }} --bail -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
-    
-     # newman run ${{ env.COLLECTION_URL }} -e ./env/staging_env.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
-      #  newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }} --bail --suppress-exit-code -r slackreporter,htmlextra --reporter-htmlextra-export testArtifacts/htmlreport.html --reporter-slackreporter-webhookurl ${{ env.SLACK_BOT_TOKEN }}
-
+      run: |  
+        newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }} --bail --suppress-exit-code -r slackreporter,htmlextra --reporter-htmlextra-export testArtifacts/htmlreport.html --reporter-slackreporter-webhookurl ${{ env.SLACK_BOT_TOKEN }}
+    #newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }} --bail -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
+          
     # Upload test results
     - name: Output the run Details
       uses: actions/upload-artifact@v2
