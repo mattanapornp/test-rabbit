@@ -55,10 +55,10 @@ jobs:
        name: RunReports
        path: testResults
 
-    #sent slackNotification 
+   #sent slackNotification 
     - name: Slack Notification
       env:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: abinoda/slack-action@master
       with:
-        args: '{\"channel\":\"C037VU6K8EM\",\"blocks\": [{\"type\": \"button\",\"text\": {\"type\": \"plain_text\",\"text\": \"Click To See Run Report\",\"emoji\": true},\"value\": \"RunReports\",\"url\": \"https://github.com/mattanapornp/test-rabbit/actions/workflows/payment-be-runtestcollection.yml\",\"action_id\": \"button-action\"}]}'
+        args: '{\"channel\":\"C037VU6K8EM\",\"blocks\": [{\"type\": \"divider\"},{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"*select the button to see RunReports :arrow_right:\"},\"accessory\": {\"type\": \"button\",\"text\": {\"type\": \"plain_text\",\"text\": \"RunReports\",\"emoji\": true},\"value\": \"RunReports\",\"url\": \"https://github.com/mattanapornp/test-rabbit/actions/workflows/payment-be-collection.yml\",\"action_id\": \"button-action\"}}]}'
