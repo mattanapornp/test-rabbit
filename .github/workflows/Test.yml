@@ -46,9 +46,8 @@ jobs:
         ENVIRONMENT_URL: ${{ secrets.ENVIRONMENT_URL }}    
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       run: |  
-        newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }} --bail --suppress-exit-code -r slackreporter,htmlextra --reporter-htmlextra-export testArtifacts/htmlreport.html --reporter-slackreporter-webhookurl ${{ env.SLACK_WEBHOOK_URL }}
-    #newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }} --bail -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
-          
+        newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }} --bail --suppress-exit-code -r slackreporter,htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-slackreporter-webhookurl ${{ env.SLACK_WEBHOOK_URL }}
+
     # Upload test results
     - name: Output the run Details
       uses: actions/upload-artifact@v2
@@ -57,9 +56,9 @@ jobs:
        path: testResults
 
     #sent slackNotification 
-    #- name: Slack Notification
-      #env:
-        #SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-      #uses: abinoda/slack-action@master
-      #with:
-        #args: '{\"channel\":\"C037VU6K8EM\",\"blocks\": [{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"Hello there :rabbitcare: \n Run test PAYMENT backend collection\"}},{\"type\": \"divider\"},{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"*Test Result : PASS* :white_check_mark: \n You can select the button to see RunReports :arrow_right: :arrow_right:\"},\"accessory\": {\"type\": \"button\",\"text\": {\"type\": \"plain_text\",\"text\": \"RunReports\",\"emoji\": true},\"value\": \"RunReports\",\"url\": \"https://github.com/mattanapornp/test-rabbit/actions/workflows/BE_payment_notify_slack.yml\",\"action_id\": \"button-action\"}}]}'
+    - name: Slack Notification
+      env:
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      uses: abinoda/slack-action@master
+      with:
+        args: '{\"channel\":\"C037VU6K8EM\",\"blocks\": [{\"type\": \"button\",\"text\": {\"type\": \"plain_text\",\"text\": \"Click To See Run Report\",\"emoji\": true},\"value\": \"RunReports\",\"url\": \"https://github.com/mattanapornp/test-rabbit/actions/workflows/payment-be-runtestcollection.yml\",\"action_id\": \"button-action\"}]}'
