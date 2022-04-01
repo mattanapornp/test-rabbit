@@ -46,7 +46,7 @@ jobs:
         ENVIRONMENT_URL: ${{ secrets.ENVIRONMENT_URL }}    
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       run: |  
-        newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }} --bail --suppress-exit-code -r slackreporter,htmlextra --reporter-htmlextra-export testArtifacts/htmlreport.html --reporter-slackreporter-webhookurl ${{ env.SLACK_BOT_TOKEN }}
+        newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }} --bail --suppress-exit-code -r slackreporter,htmlextra --reporter-htmlextra-export testArtifacts/htmlreport.html --reporter-slackreporter-webhookurl ${{ env.SLACK_WEBHOOK_URL }}
     #newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }} --bail -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
           
     # Upload test results
