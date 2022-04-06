@@ -39,15 +39,13 @@ jobs:
       run: |
         mkdir -p testResults
  
-    #Run POSTMAN collection and output the file as html
     - name: Run POSTMAN collection
       env:
         COLLECTION_URL: ${{ secrets.COLLECTION_URL }}
-        ENVIRONMENT_URL: ${{ secrets.ENVIRONMENT_URL }}    
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        ENVIRONMENT_URL: ${{ secrets.ENVIRONMENT_URL }}
       run: |  
-        newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }} --bail --suppress-exit-code -r slackreporter,htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-slackreporter-webhookurl ${{ env.SLACK_WEBHOOK_URL }}
-
+        newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }}
+        
     # Upload test results
     - name: Output the run Details
       uses: actions/upload-artifact@v2
