@@ -20,32 +20,39 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@master
-      
+          
     # Install Node on the runner
-    - name: Install Node
-      uses: actions/setup-node@v1
-      with: 
-        node-version: '17.x'
+    #- name: Install Node
+      #uses: actions/setup-node@v1
+      #with: 
+        #node-version: '17.x'
           
     # Install the newman command line utility and also install the html extra reporter
-    - name: Install newman
-      run: |
-         npm install -g newman
-         npm install -g newman-reporter-slackreporter
-         npm install -g newman-reporter-htmlextra   
+    #- name: Install newman
+      #run: |
+         #npm install -g newman
+         #npm install -g newman-reporter-slackreporter
+         #npm install -g newman-reporter-htmlextra   
     
     # Make directory to upload the test results
     - name: Make Directory for results
       run: |
         mkdir -p testResults
  
+    - name: Run Newman
+      uses: matt-ball/newman-action@master
+      with:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        collection: ${{ secrets.COLLECTION_URL }}
+        environment: ${{ secrets.ENVIRONMENT_URL }}  
+ 
     #Run POSTMAN collection and output the file as html
-    - name: Run POSTMAN collection
-      env:
-        COLLECTION_URL: ${{ secrets.COLLECTION_URL }}
-        ENVIRONMENT_URL: ${{ secrets.ENVIRONMENT_URL }}    
-      run: |  
-        newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }} -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
+    #- name: Run POSTMAN collection
+      #env:
+        #COLLECTION_URL: ${{ secrets.COLLECTION_URL }}
+        #ENVIRONMENT_URL: ${{ secrets.ENVIRONMENT_URL }}    
+      #run: |  
+        #newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }} -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
     
     # Upload test results
     - name: Output the run Details
@@ -55,9 +62,9 @@ jobs:
        path: testResults
 
    #sent slackNotification 
-    - name: Slack Notification
-      env:
-        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-      uses: abinoda/slack-action@master
-      with:
-        args: '{\"channel\":\"C037VU6K8EM\",\"blocks\": [{\"type\": \"divider\"},{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"*select the button to see RunReports* :arrow_right: \"},\"accessory\": {\"type\": \"button\",\"text\": {\"type\": \"plain_text\",\"text\": \"RunReports\",\"emoji\": true},\"value\": \"RunReports\",\"url\": \"https://github.com/mattanapornp/test-rabbit/actions/workflows/payment-be-collection.yml\",\"action_id\": \"button-action\"}}]}'
+    #- name: Slack Notification
+      #env:
+        #SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      #uses: abinoda/slack-action@master
+      #with:
+        #args: '{\"channel\":\"C037VU6K8EM\",\"blocks\": [{\"type\": \"divider\"},{\"type\": \"section\",\"text\": {\"type\": \"mrkdwn\",\"text\": \"*select the button to see RunReports* :arrow_right: \"},\"accessory\": {\"type\": \"button\",\"text\": {\"type\": \"plain_text\",\"text\": \"RunReports\",\"emoji\": true},\"value\": \"RunReports\",\"url\": \"https://github.com/mattanapornp/test-rabbit/actions/workflows/payment-be-collection.yml\",\"action_id\": \"button-action\"}}]}'
