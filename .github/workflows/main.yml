@@ -48,8 +48,8 @@ jobs:
       with:
         bail: true
         suppressExitCode: true
-        collection: https://api.getpostman.com/collections/17098251-ee813642-d6cf-4bca-9dae-3850a3144801?apikey=PMAK-6241e3175d79de4717e1cc34-c93257ea676a7193cd840750a13c61e5b1
-        environment: https://api.getpostman.com/environments/17098251-00dcfda2-78c3-4621-b6c7-e2bcc3780731?apikey=PMAK-6241e3175d79de4717e1cc34-c93257ea676a7193cd840750a13c61e5b1  
+        collection: 'https://api.getpostman.com/collections/17098251-ee813642-d6cf-4bca-9dae-3850a3144801?apikey=PMAK-6241e3175d79de4717e1cc34-c93257ea676a7193cd840750a13c61e5b1'
+        environment: 'https://api.getpostman.com/environments/17098251-00dcfda2-78c3-4621-b6c7-e2bcc3780731?apikey=PMAK-6241e3175d79de4717e1cc34-c93257ea676a7193cd840750a13c61e5b1'  
         reporters: htmlextra,slackreporter
  
     #Run POSTMAN collection and output the file as html
