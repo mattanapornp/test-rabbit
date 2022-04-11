@@ -38,11 +38,13 @@ jobs:
     - name: Make Directory for results
       run: |
         mkdir -p testResults
- 
+
     - name: Run Newman
       uses: matt-ball/newman-action@master
       with:
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        bail: true
+        suppressExitCode: true
+        reporter: slackreporter,htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-slackreporter-webhookurl ${{ env.SLACK_WEBHOOK_URL }}
         collection: ${{ secrets.COLLECTION_URL }}
         environment: ${{ secrets.ENVIRONMENT_URL }}  
  
@@ -51,9 +53,10 @@ jobs:
       #env:
         #COLLECTION_URL: ${{ secrets.COLLECTION_URL }}
         #ENVIRONMENT_URL: ${{ secrets.ENVIRONMENT_URL }}    
+        #SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       #run: |  
-        #newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }} -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
-    
+        #newman run ${{ env.COLLECTION_URL }} -e ${{ env.ENVIRONMENT_URL }} --bail --suppress-exit-code -r slackreporter,htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-slackreporter-webhookurl ${{ env.SLACK_WEBHOOK_URL }}
+
     # Upload test results
     - name: Output the run Details
       uses: actions/upload-artifact@v2
