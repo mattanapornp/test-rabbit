@@ -46,7 +46,7 @@ jobs:
         #suppressExitCode: true
         collection: ${{ secrets.COLLECTION_URL }}
         environment: ${{ secrets.ENVIRONMENT_URL }}  
-        reporter: slackreporter,htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-slackreporter-webhookurl ${{ env.SLACK_WEBHOOK_URL }}
+        #reporter: slackreporter,htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-slackreporter-webhookurl ${{ env.SLACK_WEBHOOK_URL }}
  
     #Run POSTMAN collection and output the file as html
     #- name: Run POSTMAN collection
